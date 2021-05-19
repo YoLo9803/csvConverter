@@ -1,0 +1,565 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1610528591406,217,dummy origin,200,OK,Csae 1 1-1,text,true,,114,0,3,3,null,24,0,4
+1610528591406,270,dummy origin,200,OK,Csae 1 1-3,text,true,,114,0,3,3,null,2,0,1
+1610528591410,274,dummy origin,200,OK,Csae 1 1-2,text,true,,114,0,3,3,null,33,0,1
+1610528591709,227,load root,200,OK,Csae 1 1-2,text,true,,2433,360,3,3,https://192.168.78.11/dcim/,221,0,211
+1610528591709,222,load root-0,301,Moved Permanently,Csae 1 1-2,text,true,,458,117,3,3,https://192.168.78.11/,221,0,211
+1610528591933,2,load root-1,301,Moved Permanently,Csae 1 1-2,text,true,,459,121,3,3,https://192.168.78.11/dcim,2,0,0
+1610528591935,1,load root-2,200,OK,Csae 1 1-2,text,true,,1516,122,3,3,https://192.168.78.11/dcim/,1,0,0
+1610528591709,229,load root,200,OK,Csae 1 1-1,text,true,,2433,360,3,3,https://192.168.78.11/dcim/,226,0,211
+1610528591709,226,load root-0,301,Moved Permanently,Csae 1 1-1,text,true,,458,117,3,3,https://192.168.78.11/,226,0,211
+1610528591935,2,load root-1,301,Moved Permanently,Csae 1 1-1,text,true,,459,121,3,3,https://192.168.78.11/dcim,1,0,0
+1610528591937,1,load root-2,200,OK,Csae 1 1-1,text,true,,1516,122,3,3,https://192.168.78.11/dcim/,1,0,0
+1610528591709,230,load root,200,OK,Csae 1 1-3,text,true,,2433,360,3,3,https://192.168.78.11/dcim/,220,0,213
+1610528591709,224,load root-0,301,Moved Permanently,Csae 1 1-3,text,true,,458,117,3,3,https://192.168.78.11/,220,0,213
+1610528591933,2,load root-1,301,Moved Permanently,Csae 1 1-3,text,true,,459,121,3,3,https://192.168.78.11/dcim,2,0,0
+1610528591935,4,load root-2,200,OK,Csae 1 1-3,text,true,,1516,122,3,3,https://192.168.78.11/dcim/,4,0,0
+1610528591940,2,runtime-es2015.js,200,OK,Csae 1 1-3,text,true,,9722,139,3,3,https://192.168.78.11/dcim/runtime-es2015.js,2,0,0
+1610528591938,5,runtime-es2015.js,200,OK,Csae 1 1-2,text,true,,9722,139,3,3,https://192.168.78.11/dcim/runtime-es2015.js,5,0,0
+1610528591939,7,runtime-es2015.js,200,OK,Csae 1 1-1,text,true,,9722,139,3,3,https://192.168.78.11/dcim/runtime-es2015.js,7,0,0
+1610528591947,146,polyfills-es2015.js,200,OK,Csae 1 1-1,text,true,,751643,141,3,3,https://192.168.78.11/dcim/polyfills-es2015.js,8,0,0
+1610528591943,156,polyfills-es2015.js,200,OK,Csae 1 1-3,text,true,,751643,141,3,3,https://192.168.78.11/dcim/polyfills-es2015.js,18,0,0
+1610528591944,160,polyfills-es2015.js,200,OK,Csae 1 1-2,text,true,,751643,141,3,3,https://192.168.78.11/dcim/polyfills-es2015.js,4,0,0
+1610528592096,167,styles-es2015.js,200,OK,Csae 1 1-1,text,true,,3832932,138,3,3,https://192.168.78.11/dcim/styles-es2015.js,21,0,0
+1610528592106,172,styles-es2015.js,200,OK,Csae 1 1-2,text,true,,3832932,138,3,3,https://192.168.78.11/dcim/styles-es2015.js,24,0,0
+1610528592100,181,styles-es2015.js,200,OK,Csae 1 1-3,text,true,,3832932,138,3,3,https://192.168.78.11/dcim/styles-es2015.js,20,0,0
+1610528592265,198,vendor-es2015.js,200,OK,Csae 1 1-1,text,true,,8396977,138,3,3,https://192.168.78.11/dcim/vendor-es2015.js,5,0,0
+1610528592465,6,main-es2015.js,200,OK,Csae 1 1-1,text,true,,153103,136,3,3,https://192.168.78.11/dcim/main-es2015.js,2,0,0
+1610528592472,4,1-es2015.js,200,OK,Csae 1 1-1,text,true,,11309,133,3,3,https://192.168.78.11/dcim/1-es2015.js,4,0,0
+1610528591939,528,dcim embedded,200,"Number of samples in transaction : 6, number of failing samples : 0",Csae 1 1-1,,true,,13155686,825,3,3,null,47,9,0
+1610528592279,201,vendor-es2015.js,200,OK,Csae 1 1-2,text,true,,8396977,138,3,3,https://192.168.78.11/dcim/vendor-es2015.js,9,0,0
+1610528592282,200,vendor-es2015.js,200,OK,Csae 1 1-3,text,true,,8396977,138,3,3,https://192.168.78.11/dcim/vendor-es2015.js,3,0,0
+1610528592482,3,main-es2015.js,200,OK,Csae 1 1-3,text,true,,153103,136,3,3,https://192.168.78.11/dcim/main-es2015.js,2,0,0
+1610528592481,4,main-es2015.js,200,OK,Csae 1 1-2,text,true,,153103,136,3,3,https://192.168.78.11/dcim/main-es2015.js,3,0,0
+1610528592486,1,1-es2015.js,200,OK,Csae 1 1-3,text,true,,11309,133,3,3,https://192.168.78.11/dcim/1-es2015.js,1,0,0
+1610528591939,543,dcim embedded,200,"Number of samples in transaction : 6, number of failing samples : 0",Csae 1 1-3,,true,,13155686,825,3,3,null,46,5,0
+1610528592486,12,1-es2015.js,200,OK,Csae 1 1-2,text,true,,11309,133,3,3,https://192.168.78.11/dcim/1-es2015.js,12,0,0
+1610528591937,554,dcim embedded,200,"Number of samples in transaction : 6, number of failing samples : 0",Csae 1 1-2,,true,,13155686,825,3,3,null,57,7,0
+1610528592577,82,models,401,,Csae 1 1-1,text,false,,342,170,3,3,https://192.168.78.11/dcTrackApp/api/v1/models?gcsr=0.46150935245616487,81,0,0
+1610528592575,85,models,401,,Csae 1 1-2,text,false,,342,172,3,3,https://192.168.78.11/dcTrackApp/api/v1/models?gcsr=0.0044187514242725046,85,0,0
+1610528592574,85,models,401,,Csae 1 1-3,text,false,,342,169,3,3,https://192.168.78.11/dcTrackApp/api/v1/models?gcsr=0.4667074736808381,84,0,0
+1610528592685,641,users,200,OK,Csae 1 1-2,text,true,,95143,751,3,3,https://192.168.78.11/login/login,272,0,0
+1610528592685,272,users-0,302,Found,Csae 1 1-2,text,true,,1028,146,3,3,https://192.168.78.11/users?gcsr=0.7335871964152048,272,0,0
+1610528592958,368,users-1,200,OK,Csae 1 1-2,text,true,,94115,605,3,3,https://192.168.78.11/login/login,366,0,0
+1610528592688,641,users,200,OK,Csae 1 1-3,text,true,,95143,751,3,3,https://192.168.78.11/login/login,263,0,0
+1610528592688,263,users-0,302,Found,Csae 1 1-3,text,true,,1028,146,3,3,https://192.168.78.11/users?gcsr=0.8092952377297434,263,0,0
+1610528592955,374,users-1,200,OK,Csae 1 1-3,text,true,,94115,605,3,3,https://192.168.78.11/login/login,373,0,0
+1610528592688,644,users,200,OK,Csae 1 1-1,text,true,,95143,751,3,3,https://192.168.78.11/login/login,267,0,0
+1610528592688,267,users-0,302,Found,Csae 1 1-1,text,true,,1028,146,3,3,https://192.168.78.11/users?gcsr=0.2723714074034066,267,0,0
+1610528592955,377,users-1,200,OK,Csae 1 1-1,text,true,,94115,605,3,3,https://192.168.78.11/login/login,376,0,0
+1610528593330,16,pages-pages-module-es2015.js,200,OK,Csae 1 1-2,text,true,,721245,627,3,3,https://192.168.78.11/dcim/pages-pages-module-es2015.js,6,0,0
+1610528592498,742,load data,,"Number of samples in transaction : 3, number of failing samples : 1",Csae 1 1-2,,false,,816730,1550,3,3,null,363,106,0
+1610528593333,19,pages-pages-module-es2015.js,200,OK,Csae 1 1-3,text,true,,721245,627,3,3,https://192.168.78.11/dcim/pages-pages-module-es2015.js,12,0,0
+1610528592488,745,load data,,"Number of samples in transaction : 3, number of failing samples : 1",Csae 1 1-3,,false,,816730,1547,3,3,null,359,119,0
+1610528593335,18,pages-pages-module-es2015.js,200,OK,Csae 1 1-1,text,true,,721245,627,3,3,https://192.168.78.11/dcim/pages-pages-module-es2015.js,1,0,0
+1610528592477,744,load data,,"Number of samples in transaction : 3, number of failing samples : 1",Csae 1 1-1,,false,,816730,1548,3,3,null,349,133,0
+1610528593347,638,logout,200,OK,Csae 1 1-2,text,true,,691596,2536,3,3,https://192.168.78.11/login/login?redir=%2Fdcim%2F,14,0,0
+1610528593347,14,logout-0,302,Found,Csae 1 1-2,text,true,,1276,623,3,3,https://192.168.78.11/login/logout?redir=%2Fdcim%2F,14,0,0
+1610528593361,68,logout-1,200,OK,Csae 1 1-2,text,true,,94083,622,3,3,https://192.168.78.11/login/login?redir=%2Fdcim%2F,65,0,0
+1610528593563,26,logout-2,200,OK,Csae 1 1-2,text,true,,162489,643,3,3,https://192.168.78.11/assets/login-9d5befbb3ef0093836c4ceed4be3296b30c78bdc6acc8c59d8cd418047f90d66.css,23,0,0
+1610528593908,77,logout-3,200,OK,Csae 1 1-2,text,true,,433748,648,3,3,https://192.168.78.11/assets/application-a2cffd1302fd95d8e06fbdf734512a9d4a300e322368812c1b0e14737c75771c.js,73,0,57
+1610528594667,17,accessLevel,403,,Csae 1 1-2,text,false,,284,593,3,3,https://192.168.78.11/dcTrackApp/api/user/accessLevel,17,0,0
+1610528594686,44,sunbird-login-bg.jpg,200,OK,Csae 1 1-2,bin,true,,687735,669,3,3,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,38,0,0
+1610528594731,5,sunbird-logo-white.png,200,OK,Csae 1 1-2,bin,true,,10090,671,3,3,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,5,0,0
+1610528593354,635,logout,200,OK,Csae 1 1-1,text,true,,691596,2536,3,3,https://192.168.78.11/login/login?redir=%2Fdcim%2F,23,0,0
+1610528593354,23,logout-0,302,Found,Csae 1 1-1,text,true,,1276,623,3,3,https://192.168.78.11/login/logout?redir=%2Fdcim%2F,23,0,0
+1610528593378,63,logout-1,200,OK,Csae 1 1-1,text,true,,94083,622,3,3,https://192.168.78.11/login/login?redir=%2Fdcim%2F,62,0,0
+1610528593560,26,logout-2,200,OK,Csae 1 1-1,text,true,,162489,643,3,3,https://192.168.78.11/assets/login-9d5befbb3ef0093836c4ceed4be3296b30c78bdc6acc8c59d8cd418047f90d66.css,24,0,0
+1610528593910,79,logout-3,200,OK,Csae 1 1-1,text,true,,433748,648,3,3,https://192.168.78.11/assets/application-a2cffd1302fd95d8e06fbdf734512a9d4a300e322368812c1b0e14737c75771c.js,72,0,50
+1610528593353,629,logout,200,OK,Csae 1 1-3,text,true,,691596,2536,3,3,https://192.168.78.11/login/login?redir=%2Fdcim%2F,21,0,0
+1610528593353,21,logout-0,302,Found,Csae 1 1-3,text,true,,1276,623,3,3,https://192.168.78.11/login/logout?redir=%2Fdcim%2F,21,0,0
+1610528593375,65,logout-1,200,OK,Csae 1 1-3,text,true,,94083,622,3,3,https://192.168.78.11/login/login?redir=%2Fdcim%2F,59,0,0
+1610528593562,27,logout-2,200,OK,Csae 1 1-3,text,true,,162489,643,3,3,https://192.168.78.11/assets/login-9d5befbb3ef0093836c4ceed4be3296b30c78bdc6acc8c59d8cd418047f90d66.css,25,0,0
+1610528593908,74,logout-3,200,OK,Csae 1 1-3,text,true,,433748,648,3,3,https://192.168.78.11/assets/application-a2cffd1302fd95d8e06fbdf734512a9d4a300e322368812c1b0e14737c75771c.js,68,0,44
+1610528594737,61,fontawesome-webfont.woff2,200,OK,Csae 1 1-2,text,true,,77507,680,3,3,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,61,0,0
+1610528594744,60,accessLevel,403,,Csae 1 1-1,text,false,,284,593,3,3,https://192.168.78.11/dcTrackApp/api/user/accessLevel,60,0,0
+1610528594748,56,accessLevel,403,,Csae 1 1-3,text,false,,284,593,3,3,https://192.168.78.11/dcTrackApp/api/user/accessLevel,56,0,0
+1610528594799,6,Roboto-Regular.ttf,200,OK,Csae 1 1-2,text,true,,163224,659,3,3,https://192.168.78.11/assets/Roboto/Roboto-Regular-f0e5a21bf5c95e4c1bce2be98a3656ebcc6d42a21f41c4e3ebf69dd815702e54.ttf,4,0,0
+1610528594685,116,load root page resource,200,"Number of samples in transaction : 4, number of failing samples : 0",Csae 1 1-2,,true,,938556,2679,3,3,null,108,4,0
+1610528594806,14,sunbird-login-bg.jpg,200,OK,Csae 1 1-3,bin,true,,687735,669,3,3,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,5,0,0
+1610528594806,16,sunbird-login-bg.jpg,200,OK,Csae 1 1-1,bin,true,,687735,669,3,3,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,5,0,0
+1610528594821,3,sunbird-logo-white.png,200,OK,Csae 1 1-3,bin,true,,10090,671,3,3,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,3,0,0
+1610528594823,2,sunbird-logo-white.png,200,OK,Csae 1 1-1,bin,true,,10090,671,3,3,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,2,0,0
+1610528594825,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-3,text,true,,77507,680,3,3,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1610528594826,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-1,text,true,,77507,680,3,3,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1610528594828,3,Roboto-Regular.ttf,200,OK,Csae 1 1-3,text,true,,163224,659,3,3,https://192.168.78.11/assets/Roboto/Roboto-Regular-f0e5a21bf5c95e4c1bce2be98a3656ebcc6d42a21f41c4e3ebf69dd815702e54.ttf,1,0,0
+1610528594806,22,load root page resource,200,"Number of samples in transaction : 4, number of failing samples : 0",Csae 1 1-3,,true,,938556,2679,3,3,null,10,3,0
+1610528594828,3,Roboto-Regular.ttf,200,OK,Csae 1 1-1,text,true,,163224,659,3,3,https://192.168.78.11/assets/Roboto/Roboto-Regular-f0e5a21bf5c95e4c1bce2be98a3656ebcc6d42a21f41c4e3ebf69dd815702e54.ttf,1,0,0
+1610528594805,23,load root page resource,200,"Number of samples in transaction : 4, number of failing samples : 0",Csae 1 1-1,,true,,938556,2679,3,3,null,9,3,0
+1610528594832,264,login,200,OK,Csae 1 1-1,text,true,,2955,1624,3,3,https://192.168.78.11/dcim/,260,0,0
+1610528594832,260,login-0,302,Found,Csae 1 1-1,text,true,,1439,854,3,3,https://192.168.78.11/login/login,260,0,0
+1610528595094,2,login-1,200,OK,Csae 1 1-1,text,true,,1516,770,3,3,https://192.168.78.11/dcim/,2,0,0
+1610528594806,292,login,200,OK,Csae 1 1-2,text,true,,2955,1622,3,3,https://192.168.78.11/dcim/,289,0,0
+1610528594806,289,login-0,302,Found,Csae 1 1-2,text,true,,1439,852,3,3,https://192.168.78.11/login/login,289,0,0
+1610528595096,2,login-1,200,OK,Csae 1 1-2,text,true,,1516,770,3,3,https://192.168.78.11/dcim/,2,0,0
+1610528595100,1,runtime-es2015.js,200,OK,Csae 1 1-2,text,true,,9722,787,3,3,https://192.168.78.11/dcim/runtime-es2015.js,1,0,0
+1610528594832,268,login,200,OK,Csae 1 1-3,text,true,,2955,1622,3,3,https://192.168.78.11/dcim/,262,0,0
+1610528594832,262,login-0,302,Found,Csae 1 1-3,text,true,,1439,852,3,3,https://192.168.78.11/login/login,262,0,0
+1610528595095,5,login-1,200,OK,Csae 1 1-3,text,true,,1516,770,3,3,https://192.168.78.11/dcim/,5,0,0
+1610528595099,9,runtime-es2015.js,200,OK,Csae 1 1-1,text,true,,9722,787,3,3,https://192.168.78.11/dcim/runtime-es2015.js,9,0,0
+1610528595105,4,runtime-es2015.js,200,OK,Csae 1 1-3,text,true,,9722,787,3,3,https://192.168.78.11/dcim/runtime-es2015.js,4,0,0
+1610528595102,10,polyfills-es2015.js,200,OK,Csae 1 1-2,text,true,,751643,789,3,3,https://192.168.78.11/dcim/polyfills-es2015.js,2,0,0
+1610528595109,14,polyfills-es2015.js,200,OK,Csae 1 1-1,text,true,,751643,789,3,3,https://192.168.78.11/dcim/polyfills-es2015.js,2,0,0
+1610528595109,20,polyfills-es2015.js,200,OK,Csae 1 1-3,text,true,,751643,789,3,3,https://192.168.78.11/dcim/polyfills-es2015.js,4,0,0
+1610528595113,94,styles-es2015.js,200,OK,Csae 1 1-2,text,true,,3832932,786,3,3,https://192.168.78.11/dcim/styles-es2015.js,1,0,0
+1610528595124,91,styles-es2015.js,200,OK,Csae 1 1-1,text,true,,3832932,786,3,3,https://192.168.78.11/dcim/styles-es2015.js,1,0,0
+1610528595130,90,styles-es2015.js,200,OK,Csae 1 1-3,text,true,,3832932,786,3,3,https://192.168.78.11/dcim/styles-es2015.js,2,0,0
+1610528595208,207,vendor-es2015.js,200,OK,Csae 1 1-2,text,true,,8396977,786,3,3,https://192.168.78.11/dcim/vendor-es2015.js,1,0,0
+1610528595216,202,vendor-es2015.js,200,OK,Csae 1 1-1,text,true,,8396977,786,3,3,https://192.168.78.11/dcim/vendor-es2015.js,1,0,0
+1610528595417,3,main-es2015.js,200,OK,Csae 1 1-2,text,true,,153103,784,3,3,https://192.168.78.11/dcim/main-es2015.js,3,0,0
+1610528595419,4,main-es2015.js,200,OK,Csae 1 1-1,text,true,,153103,784,3,3,https://192.168.78.11/dcim/main-es2015.js,3,0,0
+1610528595223,200,vendor-es2015.js,200,OK,Csae 1 1-3,text,true,,8396977,786,3,3,https://192.168.78.11/dcim/vendor-es2015.js,3,0,0
+1610528595423,1,1-es2015.js,200,OK,Csae 1 1-1,text,true,,11309,781,3,3,https://192.168.78.11/dcim/1-es2015.js,1,0,0
+1610528595097,321,dcim embedded,200,"Number of samples in transaction : 6, number of failing samples : 0",Csae 1 1-1,,true,,13155686,4713,3,3,null,17,6,0
+1610528591650,2804,"Login 01 (sign in, load resource)",,"Number of samples in transaction : 26, number of failing samples : 2",Csae 1 1-1,,false,,28763926,14878,3,3,null,991,971,211
+1610528595422,3,1-es2015.js,200,OK,Csae 1 1-2,text,true,,11309,781,3,3,https://192.168.78.11/dcim/1-es2015.js,3,0,0
+1610528595424,1,main-es2015.js,200,OK,Csae 1 1-3,text,true,,153103,784,3,3,https://192.168.78.11/dcim/main-es2015.js,1,0,0
+1610528595098,318,dcim embedded,200,"Number of samples in transaction : 6, number of failing samples : 0",Csae 1 1-2,,true,,13155686,4713,3,3,null,11,9,0
+1610528591684,2904,"Login 01 (sign in, load resource)",,"Number of samples in transaction : 26, number of failing samples : 2",Csae 1 1-2,,false,,28763926,14878,3,3,null,1080,838,211
+1610528595426,2,1-es2015.js,200,OK,Csae 1 1-3,text,true,,11309,781,3,3,https://192.168.78.11/dcim/1-es2015.js,2,0,0
+1610528595104,317,dcim embedded,200,"Number of samples in transaction : 6, number of failing samples : 0",Csae 1 1-3,,true,,13155686,4713,3,3,null,16,7,0
+1610528591677,2810,"Login 01 (sign in, load resource)",,"Number of samples in transaction : 26, number of failing samples : 2",Csae 1 1-3,,false,,28763926,14875,3,3,null,990,941,213
+1610528595438,263,models,200,,Csae 1 1-2,text,true,,602,817,3,3,https://192.168.78.11/dcTrackApp/api/v1/models?gcsr=0.0951956405770994,263,0,0
+1610528595444,258,models,200,,Csae 1 1-1,text,true,,602,817,3,3,https://192.168.78.11/dcTrackApp/api/v1/models?gcsr=0.9579563772030488,258,0,0
+1610528595439,266,models,200,,Csae 1 1-3,text,true,,602,817,3,3,https://192.168.78.11/dcTrackApp/api/v1/models?gcsr=0.4887720026627733,266,0,0
+1610528595726,130,users,302,Found,Csae 1 1-1,text,true,,1346,843,3,3,https://192.168.78.11/users?gcsr=0.1512481357146126,130,0,0
+1610528595723,132,users,302,Found,Csae 1 1-2,text,true,,1346,843,3,3,https://192.168.78.11/users?gcsr=0.7416902612924291,132,0,0
+1610528595726,132,users,302,Found,Csae 1 1-3,text,true,,1346,843,3,3,https://192.168.78.11/users?gcsr=0.1489970855468431,132,0,0
+1610528595870,9,pages-pages-module-es2015.js,200,OK,Csae 1 1-2,text,true,,721245,870,3,3,https://192.168.78.11/dcim/pages-pages-module-es2015.js?gcsr=0.074282994900562,1,0,0
+1610528595871,12,pages-pages-module-es2015.js,200,OK,Csae 1 1-1,text,true,,721245,872,3,3,https://192.168.78.11/dcim/pages-pages-module-es2015.js?gcsr=0.32654748001658596,5,0,0
+1610528595879,10,pages-pages-module-es2015.js,200,OK,Csae 1 1-3,text,true,,721245,871,3,3,https://192.168.78.11/dcim/pages-pages-module-es2015.js?gcsr=0.8142798921382547,1,0,0
+1610528595893,225,user_href,200,OK,Csae 1 1-3,text,true,,30729,821,3,3,https://192.168.78.11/users/1,225,0,0
+1610528595880,241,user_href,200,OK,Csae 1 1-2,text,true,,30729,821,3,3,https://192.168.78.11/users/1,240,0,0
+1610528595884,241,user_href,200,OK,Csae 1 1-1,text,true,,30729,821,3,3,https://192.168.78.11/users/1,238,0,0
+1610528596133,161,checkSession,200,,Csae 1 1-3,text,true,,478,974,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?cleanCache=true,161,0,45
+1610528596133,161,checkSession,200,,Csae 1 1-2,text,true,,478,974,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?cleanCache=true,161,0,42
+1610528595428,794,load user data,200,"Number of samples in transaction : 5, number of failing samples : 0",Csae 1 1-3,,true,,754400,4326,3,3,null,785,72,45
+1610528595426,806,load user data,200,"Number of samples in transaction : 5, number of failing samples : 0",Csae 1 1-2,,true,,754400,4325,3,3,null,797,63,42
+1610528596135,162,checkSession,200,,Csae 1 1-1,text,true,,478,974,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?cleanCache=true,162,0,46
+1610528595425,803,load user data,200,"Number of samples in transaction : 5, number of failing samples : 0",Csae 1 1-1,,true,,754400,4327,3,3,null,793,70,46
+1610528596296,54,accessLevel,200,,Csae 1 1-3,text,true,,447,957,3,3,https://192.168.78.11/dcTrackApp/api/user/accessLevel,54,0,0
+1610528596297,61,accessLevel,200,,Csae 1 1-2,text,true,,447,957,3,3,https://192.168.78.11/dcTrackApp/api/user/accessLevel,61,0,0
+1610528596299,62,accessLevel,200,,Csae 1 1-1,text,true,,447,957,3,3,https://192.168.78.11/dcTrackApp/api/user/accessLevel,62,0,0
+1610528596360,579,headerMenu,200,,Csae 1 1-2,text,true,,2191,959,3,3,https://192.168.78.11/dcTrackApp/api/v2/rbac/headerMenu,579,0,0
+1610528596351,588,headerMenu,200,,Csae 1 1-3,text,true,,2191,959,3,3,https://192.168.78.11/dcTrackApp/api/v2/rbac/headerMenu,588,0,0
+1610528596363,577,headerMenu,200,,Csae 1 1-1,text,true,,2191,959,3,3,https://192.168.78.11/dcTrackApp/api/v2/rbac/headerMenu,577,0,0
+1610528596942,20,accessLevel,200,,Csae 1 1-3,text,true,,447,957,3,3,https://192.168.78.11/dcTrackApp/api/user/accessLevel,20,0,0
+1610528596943,32,accessLevel,200,,Csae 1 1-2,text,true,,447,957,3,3,https://192.168.78.11/dcTrackApp/api/user/accessLevel,32,0,0
+1610528596942,33,accessLevel,200,,Csae 1 1-1,text,true,,447,957,3,3,https://192.168.78.11/dcTrackApp/api/user/accessLevel,33,0,0
+1610528596977,99,default_location,200,,Csae 1 1-1,text,true,,348,962,3,3,https://192.168.78.11/dcTrackApp/api/user/default_location,99,0,0
+1610528596964,112,default_location,200,,Csae 1 1-3,text,true,,348,962,3,3,https://192.168.78.11/dcTrackApp/api/user/default_location,112,0,0
+1610528596979,101,default_location,200,,Csae 1 1-2,text,true,,348,962,3,3,https://192.168.78.11/dcTrackApp/api/user/default_location,101,0,0
+1610528597081,116,APPLICATION_SETTING/0,200,,Csae 1 1-2,text,true,,907,982,3,3,https://192.168.78.11/dcTrackApp/api/v2/settings/dctrack/APPLICATION_SETTING/0,116,0,0
+1610528597079,118,APPLICATION_SETTING/0,200,,Csae 1 1-1,text,true,,907,982,3,3,https://192.168.78.11/dcTrackApp/api/v2/settings/dctrack/APPLICATION_SETTING/0,118,0,0
+1610528597079,119,APPLICATION_SETTING/0,200,,Csae 1 1-3,text,true,,907,982,3,3,https://192.168.78.11/dcTrackApp/api/v2/settings/dctrack/APPLICATION_SETTING/0,119,0,0
+1610528597200,17,mmltEnabled,200,,Csae 1 1-1,text,true,,329,972,3,3,https://192.168.78.11/dcTrackApp/api/v2/settings/dctrack/mmltEnabled,17,0,0
+1610528597202,23,mmltEnabled,200,,Csae 1 1-3,text,true,,329,972,3,3,https://192.168.78.11/dcTrackApp/api/v2/settings/dctrack/mmltEnabled,22,0,0
+1610528597200,28,mmltEnabled,200,,Csae 1 1-2,text,true,,329,972,3,3,https://192.168.78.11/dcTrackApp/api/v2/settings/dctrack/mmltEnabled,28,0,0
+1610528597219,40,permissions,200,,Csae 1 1-1,text,true,,1095,960,3,3,https://192.168.78.11/dcTrackApp/api/v2/rbac/permissions,40,0,0
+1610528597262,33,preferences,200,OK,Csae 1 1-1,text,true,,1865,945,3,3,https://192.168.78.11/users/1/preferences,33,0,0
+1610528596298,979,load data,200,"Number of samples in transaction : 8, number of failing samples : 0",Csae 1 1-1,,true,,7629,7694,3,3,null,979,20,0
+1610528595425,1782,Login 03 (load resource & login user),200,"Number of samples in transaction : 14, number of failing samples : 0",Csae 1 1-1,,true,,762029,12021,3,3,null,1772,90,46
+1610528597230,67,permissions,200,,Csae 1 1-2,text,true,,1095,960,3,3,https://192.168.78.11/dcTrackApp/api/v2/rbac/permissions,67,0,0
+1610528597227,71,permissions,200,,Csae 1 1-3,text,true,,1095,960,3,3,https://192.168.78.11/dcTrackApp/api/v2/rbac/permissions,71,0,0
+1610528597299,5,sunbird-dctrack-light.png,200,OK,Csae 1 1-1,bin,true,,5448,963,3,3,https://192.168.78.11/dcim/assets/sunbird-dctrack-light.png,5,0,0
+1610528597306,31,logo.image,200,OK,Csae 1 1-1,text,true,,358,955,3,3,https://192.168.78.11/user_content/logos/logo.image,31,0,0
+1610528597299,38,preferences,200,OK,Csae 1 1-3,text,true,,1865,945,3,3,https://192.168.78.11/users/1/preferences,38,0,0
+1610528596295,1025,load data,200,"Number of samples in transaction : 8, number of failing samples : 0",Csae 1 1-3,,true,,7629,7694,3,3,null,1024,18,0
+1610528595428,1819,Login 03 (load resource & login user),200,"Number of samples in transaction : 14, number of failing samples : 0",Csae 1 1-3,,true,,762029,12020,3,3,null,1809,91,45
+1610528597339,2,sunbird-dctrack-light.png,200,OK,Csae 1 1-3,bin,true,,5448,963,3,3,https://192.168.78.11/dcim/assets/sunbird-dctrack-light.png,2,0,0
+1610528597299,43,preferences,200,OK,Csae 1 1-2,text,true,,1865,945,3,3,https://192.168.78.11/users/1/preferences,43,0,0
+1610528596295,1027,load data,200,"Number of samples in transaction : 8, number of failing samples : 0",Csae 1 1-2,,true,,7629,7694,3,3,null,1027,21,0
+1610528595426,1833,Login 03 (load resource & login user),200,"Number of samples in transaction : 14, number of failing samples : 0",Csae 1 1-2,,true,,762029,12019,3,3,null,1824,84,42
+1610528597339,4,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-1,text,true,,16087,961,3,3,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,4,0,0
+1610528597344,1,sunbird-dctrack-light.png,200,OK,Csae 1 1-2,bin,true,,5448,963,3,3,https://192.168.78.11/dcim/assets/sunbird-dctrack-light.png,1,0,0
+1610528597346,1,logo.image,200,OK,Csae 1 1-2,text,true,,358,955,3,3,https://192.168.78.11/user_content/logos/logo.image,1,0,0
+1610528597344,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-1,text,true,,77507,1044,3,3,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,2,0,0
+1610528597338,6,woff,200,"Number of samples in transaction : 2, number of failing samples : 0",Csae 1 1-1,,true,,93594,2005,3,3,null,6,4,0
+1610528597344,2,logo.image,200,OK,Csae 1 1-3,text,true,,358,955,3,3,https://192.168.78.11/user_content/logos/logo.image,2,0,0
+1610528597348,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-2,text,true,,16087,961,3,3,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1610528597350,20,fontawesome-webfont.woff2,200,OK,Csae 1 1-2,text,true,,77507,1044,3,3,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,20,0,0
+1610528597348,21,woff,200,"Number of samples in transaction : 2, number of failing samples : 0",Csae 1 1-2,,true,,93594,2005,3,3,null,21,1,0
+1610528597351,21,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-3,text,true,,16087,961,3,3,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,21,0,0
+1610528597375,7,fontawesome-webfont.woff2,200,OK,Csae 1 1-3,text,true,,77507,1044,3,3,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,6,0,0
+1610528597349,28,woff,200,"Number of samples in transaction : 2, number of failing samples : 0",Csae 1 1-3,,true,,93594,2005,3,3,null,27,5,0
+1610528597372,1037,app,200,OK,Csae 1 1-2,text,true,,11578675,8502,3,3,https://192.168.78.11/app/,1,0,0
+1610528597372,1,app-0,200,OK,Csae 1 1-2,text,true,,1338,930,3,3,https://192.168.78.11/app/,1,0,0
+1610528597374,4,app-1,200,OK,Csae 1 1-2,text,true,,330,947,3,3,https://192.168.78.11/app/main.42b6269d.css,4,0,0
+1610528597383,2,app-2,200,OK,Csae 1 1-2,text,true,,154129,940,3,3,https://192.168.78.11/app/vendor.css,1,0,0
+1610528597495,34,app-3,200,OK,Csae 1 1-2,text,true,,433790,938,3,3,https://192.168.78.11/app/dark.css,24,0,0
+1610528597831,23,app-4,200,OK,Csae 1 1-2,text,true,,433808,939,3,3,https://192.168.78.11/app/light.css,19,0,0
+1610528598116,106,app-5,200,OK,Csae 1 1-2,text,true,,4319583,946,3,3,https://192.168.78.11/app/main.42b6269d.js,7,0,0
+1610528598222,172,app-6,200,OK,Csae 1 1-2,text,true,,6234781,955,3,3,https://192.168.78.11/app/vendor.42b6269d.bundle.js,28,0,21
+1610528598394,8,app-7,200,OK,Csae 1 1-2,text,true,,458,953,3,3,https://192.168.78.11/app/dark.42b6269d.bundle.js,8,0,0
+1610528598403,6,app-8,200,OK,Csae 1 1-2,text,true,,458,954,3,3,https://192.168.78.11/app/light.42b6269d.bundle.js,6,0,0
+1610528597349,1061,app,200,OK,Csae 1 1-1,text,true,,11578675,8502,3,3,https://192.168.78.11/app/,20,0,0
+1610528597349,21,app-0,200,OK,Csae 1 1-1,text,true,,1338,930,3,3,https://192.168.78.11/app/,20,0,0
+1610528597372,6,app-1,200,OK,Csae 1 1-1,text,true,,330,947,3,3,https://192.168.78.11/app/main.42b6269d.css,6,0,0
+1610528597383,3,app-2,200,OK,Csae 1 1-1,text,true,,154129,940,3,3,https://192.168.78.11/app/vendor.css,2,0,0
+1610528597495,30,app-3,200,OK,Csae 1 1-1,text,true,,433790,938,3,3,https://192.168.78.11/app/dark.css,24,0,0
+1610528597830,22,app-4,200,OK,Csae 1 1-1,text,true,,433808,939,3,3,https://192.168.78.11/app/light.css,5,0,0
+1610528598113,94,app-5,200,OK,Csae 1 1-1,text,true,,4319583,946,3,3,https://192.168.78.11/app/main.42b6269d.js,2,0,0
+1610528598212,166,app-6,200,OK,Csae 1 1-1,text,true,,6234781,955,3,3,https://192.168.78.11/app/vendor.42b6269d.bundle.js,29,0,28
+1610528598378,24,app-7,200,OK,Csae 1 1-1,text,true,,458,953,3,3,https://192.168.78.11/app/dark.42b6269d.bundle.js,24,0,0
+1610528598402,8,app-8,200,OK,Csae 1 1-1,text,true,,458,954,3,3,https://192.168.78.11/app/light.42b6269d.bundle.js,8,0,0
+1610528597384,1031,app,200,OK,Csae 1 1-3,text,true,,11578675,8502,3,3,https://192.168.78.11/app/,3,0,0
+1610528597384,3,app-0,200,OK,Csae 1 1-3,text,true,,1338,930,3,3,https://192.168.78.11/app/,3,0,0
+1610528597389,11,app-1,200,OK,Csae 1 1-3,text,true,,330,947,3,3,https://192.168.78.11/app/main.42b6269d.css,11,0,0
+1610528597400,3,app-2,200,OK,Csae 1 1-3,text,true,,154129,940,3,3,https://192.168.78.11/app/vendor.css,2,0,0
+1610528597494,25,app-3,200,OK,Csae 1 1-3,text,true,,433790,938,3,3,https://192.168.78.11/app/dark.css,22,0,0
+1610528597830,19,app-4,200,OK,Csae 1 1-3,text,true,,433808,939,3,3,https://192.168.78.11/app/light.css,3,0,0
+1610528598116,117,app-5,200,OK,Csae 1 1-3,text,true,,4319583,946,3,3,https://192.168.78.11/app/main.42b6269d.js,9,0,0
+1610528598234,174,app-6,200,OK,Csae 1 1-3,text,true,,6234781,955,3,3,https://192.168.78.11/app/vendor.42b6269d.bundle.js,18,0,15
+1610528598408,6,app-7,200,OK,Csae 1 1-3,text,true,,458,953,3,3,https://192.168.78.11/app/dark.42b6269d.bundle.js,6,0,0
+1610528598414,1,app-8,200,OK,Csae 1 1-3,text,true,,458,954,3,3,https://192.168.78.11/app/light.42b6269d.bundle.js,1,0,0
+1610528598412,138,eventCount,200,,Csae 1 1-1,text,true,,376,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,138,0,0
+1610528598419,131,eventCount,200,,Csae 1 1-3,text,true,,376,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,131,0,0
+1610528597297,1241,Login 04 (load main page),200,"Number of samples in transaction : 7, number of failing samples : 0",Csae 1 1-1,,true,,11678451,13400,3,3,null,200,13,0
+1610528597338,1194,Login 04 (load main page),200,"Number of samples in transaction : 7, number of failing samples : 0",Csae 1 1-3,,true,,11678451,13400,3,3,null,165,19,0
+1610528598412,139,eventCount,200,,Csae 1 1-2,text,true,,376,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,138,0,0
+1610528597343,1199,Login 04 (load main page),200,"Number of samples in transaction : 7, number of failing samples : 0",Csae 1 1-2,,true,,11678451,13400,3,3,null,162,10,0
+1610528598553,3,common-en-US.json,200,OK,Csae 1 1-3,text,true,,52141,967,3,3,https://192.168.78.11/app/scripts/static/i18n/common-en-US.json,3,0,0
+1610528598553,3,common-en-US.json,200,OK,Csae 1 1-2,text,true,,52141,967,3,3,https://192.168.78.11/app/scripts/static/i18n/common-en-US.json,3,0,0
+1610528598554,4,common-en-US.json,200,OK,Csae 1 1-1,text,true,,52141,967,3,3,https://192.168.78.11/app/scripts/static/i18n/common-en-US.json,4,0,0
+1610528598559,1,labels.json,200,OK,Csae 1 1-1,text,true,,18577,956,3,3,https://192.168.78.11/app/scripts/static/labels.json,1,0,0
+1610528598558,2,labels.json,200,OK,Csae 1 1-2,text,true,,18577,956,3,3,https://192.168.78.11/app/scripts/static/labels.json,2,0,0
+1610528598557,3,labels.json,200,OK,Csae 1 1-3,text,true,,18577,956,3,3,https://192.168.78.11/app/scripts/static/labels.json,2,0,0
+1610528598572,29,policies,200,,Csae 1 1-3,text,true,,310,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/policies?_dc=0.6622869649751371,29,0,0
+1610528598578,29,policies,200,,Csae 1 1-1,text,true,,310,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/policies?_dc=0.8680214851257995,28,0,0
+1610528598582,26,policies,200,,Csae 1 1-2,text,true,,310,976,3,3,https://192.168.78.11/dcTrackApp/api/v2/policies?_dc=0.29961363224536386,26,0,0
+1610528598624,26,list,200,,Csae 1 1-2,text,true,,327,983,3,3,https://192.168.78.11/dcTrackApp/api/v2/expressions/list?_dc=0.5222479963251357,26,0,0
+1610528598623,27,list,200,,Csae 1 1-1,text,true,,327,983,3,3,https://192.168.78.11/dcTrackApp/api/v2/expressions/list?_dc=0.9752937469258591,27,0,0
+1610528598612,40,list,200,,Csae 1 1-3,text,true,,327,983,3,3,https://192.168.78.11/dcTrackApp/api/v2/expressions/list?_dc=0.0784316037970203,40,0,0
+1610528598667,71,ALL_LKS,200,,Csae 1 1-2,text,true,,27605,997,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_LKS?_dc=0.8537387472667799,69,0,0
+1610528598674,68,ALL_LKS,200,,Csae 1 1-1,text,true,,27605,997,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_LKS?_dc=0.7022970167851543,67,0,0
+1610528598667,76,ALL_LKS,200,,Csae 1 1-3,text,true,,27605,996,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_LKS?_dc=0.877397750332262,76,0,0
+1610528598755,48,netmasks,200,,Csae 1 1-3,text,true,,1339,983,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/netmasks?_dc=0.7382265255468542,48,0,0
+1610528598771,34,netmasks,200,,Csae 1 1-1,text,true,,1339,984,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/netmasks?_dc=0.26427793724150195,34,0,0
+1610528598759,48,netmasks,200,,Csae 1 1-2,text,true,,1339,982,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/netmasks?_dc=0.393418585018121,47,0,0
+1610528598827,76,locationLevel/2,200,,Csae 1 1-3,text,true,,4713,1019,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/DC_LOCATION/0/locationLevel/2?_dc=0.6379390736419535,76,0,0
+1610528598816,95,locationLevel/2,200,,Csae 1 1-2,text,true,,4719,1019,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/DC_LOCATION/0/locationLevel/2?_dc=0.8659992768538761,95,0,0
+1610528598860,51,locationLevel/2,200,,Csae 1 1-1,text,true,,4719,1019,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/DC_LOCATION/0/locationLevel/2?_dc=0.7287493010093022,51,0,0
+1610528598925,64,ALL_LKU,200,,Csae 1 1-3,text,true,,33685,997,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_LKU?_dc=0.7348936628908094,63,0,0
+1610528598930,60,ALL_LKU,200,,Csae 1 1-1,text,true,,33685,997,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_LKU?_dc=0.8038010039228992,59,0,0
+1610528598926,69,ALL_LKU,200,,Csae 1 1-2,text,true,,33654,998,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_LKU?_dc=0.21322998056225484,69,0,0
+1610528599002,40,MAKE,200,,Csae 1 1-2,text,true,,16495,995,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/MAKE?_dc=0.34084485030938494,37,0,0
+1610528599013,32,MAKE,200,,Csae 1 1-3,text,true,,16495,994,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/MAKE?_dc=0.6872434472643459,29,0,0
+1610528599004,41,MAKE,200,,Csae 1 1-1,text,true,,16495,994,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/MAKE?_dc=0.5038754586077204,41,0,0
+1610528599053,68,ALL_CUSTOM,200,,Csae 1 1-2,text,true,,57759,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_CUSTOM?_dc=0.6401623213832897,66,0,0
+1610528599060,65,ALL_CUSTOM,200,,Csae 1 1-3,text,true,,57759,1001,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_CUSTOM?_dc=0.18973623065312228,63,0,0
+1610528599057,71,ALL_CUSTOM,200,,Csae 1 1-1,text,true,,57759,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_CUSTOM?_dc=0.8518644786962659,69,0,0
+1610528599144,26,USER,200,,Csae 1 1-2,text,true,,1713,994,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/USER?_dc=0.1406096302680797,26,0,0
+1610528599137,37,USER,200,,Csae 1 1-3,text,true,,1713,995,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/USER?_dc=0.07915601843832687,37,0,0
+1610528599148,26,USER,200,,Csae 1 1-1,text,true,,1713,995,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/USER?_dc=0.09617781392197244,26,0,0
+1610528599180,29,USER_GROUP,200,,Csae 1 1-2,text,true,,556,1001,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/USER_GROUP?_dc=0.08253203540677068,29,0,0
+1610528599193,18,USER_GROUP,200,,Csae 1 1-3,text,true,,556,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/USER_GROUP?_dc=0.5829178999989043,18,0,0
+1610528599202,26,USER_GROUP,200,,Csae 1 1-1,text,true,,556,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/USER_GROUP?_dc=0.5757481035155084,26,0,0
+1610528599246,324,PROJECT_NUMBER,200,,Csae 1 1-1,text,true,,640,1004,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/PROJECT_NUMBER?_dc=0.9635674266443507,324,0,0
+1610528599222,352,PROJECT_NUMBER,200,,Csae 1 1-2,text,true,,640,1005,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/PROJECT_NUMBER?_dc=0.24646994830169977,352,0,0
+1610528599222,352,PROJECT_NUMBER,200,,Csae 1 1-3,text,true,,640,1004,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/PROJECT_NUMBER?_dc=0.9014534463258743,352,0,0
+1610528599593,34,CONTRACT_NUMBER,200,,Csae 1 1-2,text,true,,341,1005,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/CONTRACT_NUMBER?_dc=0.5780560457230415,34,0,0
+1610528599122,441,get users information,200,"Number of samples in transaction : 4, number of failing samples : 0",Csae 1 1-2,,true,,3250,4005,3,3,null,441,64,0
+1610528599593,37,CONTRACT_NUMBER,200,,Csae 1 1-3,text,true,,341,1006,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/CONTRACT_NUMBER?_dc=0.13883741793893845,37,0,0
+1610528599125,444,get users information,200,"Number of samples in transaction : 4, number of failing samples : 0",Csae 1 1-3,,true,,3250,4005,3,3,null,444,61,0
+1610528599599,35,CONTRACT_NUMBER,200,,Csae 1 1-1,text,true,,341,1005,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/CONTRACT_NUMBER?_dc=0.8629568848317729,35,0,0
+1610528599128,411,get users information,200,"Number of samples in transaction : 4, number of failing samples : 0",Csae 1 1-1,,true,,3250,4004,3,3,null,411,95,0
+1610528599643,24,connectors?typeName=Data,200,,Csae 1 1-1,text,true,,19419,999,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Data&_dc=0.5935693830411067,20,0,0
+1610528599639,28,connectors?typeName=Data,200,,Csae 1 1-2,text,true,,19419,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Data&_dc=0.31511625033623214,24,0,0
+1610528599651,20,connectors?typeName=Data,200,,Csae 1 1-3,text,true,,19427,999,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Data&_dc=0.1994933088294426,20,0,0
+1610528599676,20,connectors?typeName=Power,200,,Csae 1 1-2,text,true,,41991,1001,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Power&_dc=0.03749436736109013,19,0,0
+1610528599678,22,connectors?typeName=Power,200,,Csae 1 1-3,text,true,,41991,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Power&_dc=0.9322661018711507,21,0,0
+1610528599686,28,connectors?typeName=Power,200,,Csae 1 1-1,text,true,,41991,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Power&_dc=0.6945672547820463,25,0,0
+1610528599706,22,connectors?typeName=Breaker (DC),200,,Csae 1 1-3,text,true,,1662,1012,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Breaker+%28DC%29&_dc=0.13793783460258668,22,0,0
+1610528599705,23,connectors?typeName=Breaker (DC),200,,Csae 1 1-2,text,true,,1662,1011,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Breaker+%28DC%29&_dc=0.4391766315562715,23,0,0
+1610528599731,20,connectors?typeName=Breaker (DC),200,,Csae 1 1-1,text,true,,1662,1011,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Breaker+%28DC%29&_dc=0.6492591860859103,20,0,0
+1610528599737,21,connectors?typeName=Power (DC),200,,Csae 1 1-3,text,true,,654,1010,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Power+%28DC%29&_dc=0.30309364701257036,20,0,0
+1610528599738,22,connectors?typeName=Power (DC),200,,Csae 1 1-2,text,true,,654,1009,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Power+%28DC%29&_dc=0.8260873346325033,22,0,0
+1610528599765,18,connectors?typeName=Power (DC),200,,Csae 1 1-1,text,true,,654,1010,3,3,https://192.168.78.11/dcTrackApp/api/v2/lookups/connectors?typeName=Power+%28DC%29&_dc=0.07908475019767669,18,0,0
+1610528599770,24,phaseLegMap?portType=20003,200,,Csae 1 1-3,text,true,,1049,1001,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseLegMap?portType=20003&_dc=0.10951542437758832,24,0,0
+1610528599774,26,phaseLegMap?portType=20003,200,,Csae 1 1-2,text,true,,1049,1001,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseLegMap?portType=20003&_dc=0.46206475595850827,26,0,0
+1610528599797,12,phaseLegMap?portType=20003,200,,Csae 1 1-1,text,true,,1049,1000,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseLegMap?portType=20003&_dc=0.9741453916859274,12,0,0
+1610528599803,19,phaseLegMap?portType=20002,200,,Csae 1 1-3,text,true,,681,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseMap?portType=20002&_dc=0.8751695608885434,19,0,0
+1610528599809,13,phaseLegMap?portType=20002,200,,Csae 1 1-2,text,true,,681,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseMap?portType=20002&_dc=0.8213120983306889,13,0,0
+1610528599826,8,phaseLegMap?portType=20002,200,,Csae 1 1-1,text,true,,681,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseMap?portType=20002&_dc=0.9088748611852898,8,0,0
+1610528599831,16,phaseLegMap?portType=20003,200,,Csae 1 1-2,text,true,,790,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseMap?portType=20003&_dc=0.7010954282059849,16,0,0
+1610528599829,27,phaseLegMap?portType=20003,200,,Csae 1 1-3,text,true,,790,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseMap?portType=20003&_dc=0.4905979899310722,27,0,0
+1610528599861,21,phaseLegMap?portType=20001,200,,Csae 1 1-2,text,true,,531,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseMap?portType=20001&_dc=0.5276123527204994,21,0,0
+1610528599864,19,phaseLegMap?portType=20001,200,,Csae 1 1-3,text,true,,531,998,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseMap?portType=20001&_dc=0.35582876972594035,19,0,0
+1610528599865,25,phaseLegMap?portType=20003,200,,Csae 1 1-1,text,true,,790,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseMap?portType=20003&_dc=0.5154768112379138,25,0,0
+1610528599895,27,voltsMap?portType=20002,200,,Csae 1 1-3,text,true,,1373,998,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsMap?portType=20002&_dc=0.23313903543944414,27,0,0
+1610528599899,31,voltsMap?portType=20002,200,,Csae 1 1-2,text,true,,1373,998,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsMap?portType=20002&_dc=0.06239156443652549,31,0,0
+1610528599897,37,phaseLegMap?portType=20001,200,,Csae 1 1-1,text,true,,531,998,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseMap?portType=20001&_dc=0.37225085428959925,37,0,0
+1610528599945,49,voltsMap?portType=20002,200,,Csae 1 1-1,text,true,,1373,996,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsMap?portType=20002&_dc=0.580036348269827,49,0,0
+1610528599930,100,voltsMap?portType=20003,200,,Csae 1 1-3,text,true,,240132,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsMap?portType=20003&_dc=0.9551325767817632,78,0,0
+1610528599941,101,voltsMap?portType=20003,200,,Csae 1 1-2,text,true,,240124,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsMap?portType=20003&_dc=0.7061711634517108,99,0,0
+1610528600012,56,voltsMap?portType=20003,200,,Csae 1 1-1,text,true,,240109,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsMap?portType=20003&_dc=0.9961618470872992,52,0,0
+1610528600051,21,voltsMap?portType=20001,200,,Csae 1 1-2,text,true,,1122,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsMap?portType=20001&_dc=0.4769740601524932,21,0,0
+1610528600038,35,voltsMap?portType=20001,200,,Csae 1 1-3,text,true,,1122,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsMap?portType=20001&_dc=0.6630514732387885,35,0,0
+1610528600082,15,voltsMap?portType=20001,200,,Csae 1 1-1,text,true,,1122,997,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsMap?portType=20001&_dc=0.8849327123076195,15,0,0
+1610528600083,16,voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=5001,200,,Csae 1 1-3,text,true,,663,1097,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=5001&_dc=0.6226374552212847,16,0,0
+1610528600084,15,voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=5001,200,,Csae 1 1-2,text,true,,663,1098,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=5001&_dc=0.35338432080583804,15,0,0
+1610528600108,8,/voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=2102,200,,Csae 1 1-2,text,true,,334,1096,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=2102&_dc=0.267025859820033,8,0,0
+1610528600109,12,/voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=2102,200,,Csae 1 1-3,text,true,,334,1097,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=2102&_dc=0.7383310957466048,12,0,0
+1610528600135,11,phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=5001,200,,Csae 1 1-2,text,true,,476,1039,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=5001&_dc=0.10680764531781106,11,0,0
+1610528600135,13,voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=5001,200,,Csae 1 1-1,text,true,,663,1097,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=5001&_dc=0.6382578960969458,13,0,0
+1610528600140,12,phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=5001,200,,Csae 1 1-3,text,true,,476,1037,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=5001&_dc=0.673161858812894,12,0,0
+1610528600172,17,phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=2103,200,,Csae 1 1-3,text,true,,347,1037,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=2103&_dc=0.766870602543841,17,0,0
+1610528600172,20,phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=2103,200,,Csae 1 1-2,text,true,,347,1038,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=2103&_dc=0.4085280714007109,20,0,0
+1610528600173,30,/voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=2102,200,,Csae 1 1-1,text,true,,334,1097,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/voltsDDL?portType=20002&inletPhaseCode=-1&inletVoltsCode=-1&outletPhaseCode=-1&outletPhaseLegCode=-1&modelSubClassCode=2102&_dc=0.3373693450815799,30,0,0
+1610528600199,8,phaseDDL?portType=20003&inletPhaseCode=-1&modelSubClassCode=2103,200,,Csae 1 1-3,text,true,,398,1038,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseDDL?portType=20003&inletPhaseCode=-1&modelSubClassCode=2103&_dc=0.9808106397137809,8,0,0
+1610528600208,2,font-awesome.json,200,OK,Csae 1 1-3,text,true,,35766,962,3,3,https://192.168.78.11/app/scripts/static/font-awesome.json,2,0,0
+1610528600210,7,phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=5001,200,,Csae 1 1-1,text,true,,476,1039,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=5001&_dc=0.07668322000460792,7,0,0
+1610528600206,14,phaseDDL?portType=20003&inletPhaseCode=-1&modelSubClassCode=2103,200,,Csae 1 1-2,text,true,,398,1038,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseDDL?portType=20003&inletPhaseCode=-1&modelSubClassCode=2103&_dc=0.4428754069792491,14,0,0
+1610528600221,2,font-awesome.json,200,OK,Csae 1 1-2,text,true,,35766,962,3,3,https://192.168.78.11/app/scripts/static/font-awesome.json,2,0,0
+1610528600229,43,locationDropdown?listType=itemFilter,200,,Csae 1 1-3,text,true,,5522,1009,3,3,https://192.168.78.11/dcTrackApp/api/v2/rbac/locationDropdown?listType=itemFilter&_dc=0.26487304083168073,43,0,0
+1610528600237,39,phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=2103,200,,Csae 1 1-1,text,true,,347,1038,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseDDL?portType=20002&inletPhaseCode=-1&modelSubClassCode=2103&_dc=0.6056695263707125,39,0,21
+1610528600284,10,phaseDDL?portType=20003&inletPhaseCode=-1&modelSubClassCode=2103,200,,Csae 1 1-1,text,true,,398,1038,3,3,https://192.168.78.11/dcTrackApp/api/v1/models/phaseDDL?portType=20003&inletPhaseCode=-1&modelSubClassCode=2103&_dc=0.9947327015870135,10,0,0
+1610528600295,2,font-awesome.json,200,OK,Csae 1 1-1,text,true,,35766,962,3,3,https://192.168.78.11/app/scripts/static/font-awesome.json,2,0,0
+1610528600235,66,locationDropdown?listType=itemFilter,200,,Csae 1 1-2,text,true,,5522,1008,3,3,https://192.168.78.11/dcTrackApp/api/v2/rbac/locationDropdown?listType=itemFilter&_dc=0.7920431348491997,66,0,19
+1610528600282,29,20000,200,,Csae 1 1-3,text,true,,1014,1001,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/cord/20000?_dc=0.14292761136401544,29,0,14
+1610528600316,19,20000,200,,Csae 1 1-2,text,true,,1014,1001,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/cord/20000?_dc=0.32769950508380763,19,0,0
+1610528600321,22,30000,200,,Csae 1 1-3,text,true,,2366,999,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/cord/30000?_dc=0.780875385086427,22,0,0
+1610528600314,37,locationDropdown?listType=itemFilter,200,,Csae 1 1-1,text,true,,5522,1009,3,3,https://192.168.78.11/dcTrackApp/api/v2/rbac/locationDropdown?listType=itemFilter&_dc=0.48946076872407607,37,0,0
+1610528600349,23,30000,200,,Csae 1 1-2,text,true,,2366,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/cord/30000?_dc=0.9955169232567482,23,0,0
+1610528600351,21,CONNECTOR_ATTRIBUTE,200,,Csae 1 1-3,text,true,,661,1009,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/CONNECTOR_ATTRIBUTE?_dc=0.0969885722917272,21,0,0
+1610528600359,26,20000,200,,Csae 1 1-1,text,true,,1014,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/cord/20000?_dc=0.9074745393170998,26,0,0
+1610528600384,20,CORD_TYPE,200,,Csae 1 1-3,text,true,,1327,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/CORD_TYPE?_dc=0.38427940314756104,20,0,0
+1610528600390,15,CONNECTOR_ATTRIBUTE,200,,Csae 1 1-2,text,true,,661,1011,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/CONNECTOR_ATTRIBUTE?_dc=0.004509076082627739,15,0,0
+1610528600392,25,30000,200,,Csae 1 1-1,text,true,,2366,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/cord/30000?_dc=0.6699280422459521,25,0,0
+1610528600413,16,BUDGET_STATUS,200,,Csae 1 1-3,text,true,,434,1004,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/BUDGET_STATUS?_dc=0.18950309861536674,16,0,0
+1610528600416,18,CORD_TYPE,200,,Csae 1 1-2,text,true,,1327,1000,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/CORD_TYPE?_dc=0.32806670256620796,18,0,0
+1610528600427,14,CONNECTOR_ATTRIBUTE,200,,Csae 1 1-1,text,true,,661,1008,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/CONNECTOR_ATTRIBUTE?_dc=0.730674141769053,14,0,0
+1610528600449,16,BUDGET_STATUS,200,,Csae 1 1-2,text,true,,434,1003,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/BUDGET_STATUS?_dc=0.5208423018479492,16,0,0
+1610528600447,28,CORD_TYPE,200,,Csae 1 1-1,text,true,,1327,999,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/CORD_TYPE?_dc=0.9491634495454453,28,0,0
+1610528600448,27,ALL_PARTS_ACTION,200,,Csae 1 1-3,text,true,,715,1007,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_PARTS_ACTION?_dc=0.21159780367932468,27,0,0
+1610528599630,581,get contrast data,200,"Number of samples in transaction : 24, number of failing samples : 0",Csae 1 1-3,,true,,359435,24303,3,3,null,557,264,14
+1610528600476,2,dashboard-en-US.json,200,OK,Csae 1 1-3,text,true,,14364,970,3,3,https://192.168.78.11/app/scripts/static/i18n/dashboard-en-US.json,2,0,0
+1610528600479,1,permission-en-US.json,200,OK,Csae 1 1-3,text,true,,1382,971,3,3,https://192.168.78.11/app/scripts/static/i18n/permission-en-US.json,1,0,0
+1610528600481,0,labels.json,200,OK,Csae 1 1-3,text,true,,18577,956,3,3,https://192.168.78.11/app/scripts/static/labels.json,0,0,0
+1610528600475,3,format,200,"Number of samples in transaction : 3, number of failing samples : 0",Csae 1 1-3,,true,,34323,2897,3,3,null,3,4,0
+1610528600482,22,BUDGET_STATUS,200,,Csae 1 1-1,text,true,,434,1003,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/BUDGET_STATUS?_dc=0.6482044619752028,22,0,0
+1610528600479,25,ALL_PARTS_ACTION,200,,Csae 1 1-2,text,true,,715,1006,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_PARTS_ACTION?_dc=0.7873867750975426,25,0,0
+1610528599627,574,get contrast data,200,"Number of samples in transaction : 24, number of failing samples : 0",Csae 1 1-2,,true,,359419,24305,3,3,null,567,303,19
+1610528600505,1,dashboard-en-US.json,200,OK,Csae 1 1-2,text,true,,14364,970,3,3,https://192.168.78.11/app/scripts/static/i18n/dashboard-en-US.json,1,0,0
+1610528600507,1,permission-en-US.json,200,OK,Csae 1 1-2,text,true,,1382,971,3,3,https://192.168.78.11/app/scripts/static/i18n/permission-en-US.json,1,0,0
+1610528600509,0,labels.json,200,OK,Csae 1 1-2,text,true,,18577,956,3,3,https://192.168.78.11/app/scripts/static/labels.json,0,0,0
+1610528600504,2,format,200,"Number of samples in transaction : 3, number of failing samples : 0",Csae 1 1-2,,true,,34323,2897,3,3,null,2,3,0
+1610528600512,33,ALL_PARTS_ACTION,200,,Csae 1 1-1,text,true,,715,1007,3,3,https://192.168.78.11/dcTrackApp/api/v2/dcimoperations/lookups/ALL_PARTS_ACTION?_dc=0.45003794674224906,33,0,0
+1610528599634,578,get contrast data,200,"Number of samples in transaction : 24, number of failing samples : 0",Csae 1 1-1,,true,,359404,24299,3,3,null,567,333,21
+1610528600546,2,dashboard-en-US.json,200,OK,Csae 1 1-1,text,true,,14364,970,3,3,https://192.168.78.11/app/scripts/static/i18n/dashboard-en-US.json,1,0,0
+1610528600548,1,permission-en-US.json,200,OK,Csae 1 1-1,text,true,,1382,971,3,3,https://192.168.78.11/app/scripts/static/i18n/permission-en-US.json,1,0,0
+1610528600550,1,labels.json,200,OK,Csae 1 1-1,text,true,,18577,956,3,3,https://192.168.78.11/app/scripts/static/labels.json,1,0,0
+1610528600545,4,format,200,"Number of samples in transaction : 3, number of failing samples : 0",Csae 1 1-1,,true,,34323,2897,3,3,null,3,2,0
+1610528600559,708,folders,200,OK,Csae 1 1-1,text,true,,45366,968,3,3,https://192.168.78.11/dashboardr/folders?_dc=0.40678714199997146,708,0,0
+1610528600491,777,folders,200,OK,Csae 1 1-3,text,true,,45366,968,3,3,https://192.168.78.11/dashboardr/folders?_dc=0.36103121192826915,777,0,0
+1610528600516,754,folders,200,OK,Csae 1 1-2,text,true,,45366,967,3,3,https://192.168.78.11/dashboardr/folders?_dc=0.8786021038061669,754,0,0
+1610528601270,51,sunbird-dctrack-light.png,200,OK,Csae 1 1-1,bin,true,,5448,969,3,3,https://192.168.78.11/app/assets/images/sunbird-dctrack-light.png,51,0,0
+1610528601270,51,sunbird-dctrack-light.png,200,OK,Csae 1 1-3,bin,true,,5448,969,3,3,https://192.168.78.11/app/assets/images/sunbird-dctrack-light.png,51,0,0
+1610528601272,49,sunbird-dctrack-light.png,200,OK,Csae 1 1-2,bin,true,,5448,969,3,3,https://192.168.78.11/app/assets/images/sunbird-dctrack-light.png,49,0,0
+1610528601323,28,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-2,text,true,,16223,969,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,28,0,0
+1610528601323,28,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-3,text,true,,16223,969,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,28,0,0
+1610528601323,28,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-1,text,true,,16223,969,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,28,0,0
+1610528601352,35,fontawesome-webfont.woff2,200,OK,Csae 1 1-2,text,true,,77512,968,3,3,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,34,0,0
+1610528601352,35,fontawesome-webfont.woff2,200,OK,Csae 1 1-1,text,true,,77512,968,3,3,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,35,0,0
+1610528601352,36,fontawesome-webfont.woff2,200,OK,Csae 1 1-3,text,true,,77512,968,3,3,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,35,0,0
+1610528601388,8,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-2,text,true,,16087,973,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,8,0,0
+1610528601389,7,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-1,text,true,,16087,973,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,7,0,0
+1610528601389,7,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-3,text,true,,16087,973,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,7,0,0
+1610528601397,1,roboto-v20-latin-italic.woff2,200,OK,Csae 1 1-2,text,true,,17675,972,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-italic.woff2,1,0,0
+1610528601322,72,woff,200,"Number of samples in transaction : 4, number of failing samples : 0",Csae 1 1-2,,true,,127497,3882,3,3,null,71,5,0
+1610528601398,1,roboto-v20-latin-italic.woff2,200,OK,Csae 1 1-1,text,true,,17675,972,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-italic.woff2,1,0,0
+1610528601322,71,woff,200,"Number of samples in transaction : 4, number of failing samples : 0",Csae 1 1-1,,true,,127497,3882,3,3,null,71,6,0
+1610528601398,1,roboto-v20-latin-italic.woff2,200,OK,Csae 1 1-3,text,true,,17675,972,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-italic.woff2,1,0,0
+1610528601322,72,woff,200,"Number of samples in transaction : 4, number of failing samples : 0",Csae 1 1-3,,true,,127497,3882,3,3,null,71,5,0
+1610528601410,536,widgets,200,OK,Csae 1 1-1,text,true,,33086,975,3,3,https://192.168.78.11/dashboardr/folders/widgets?_dc=0.9084697382966126,536,0,0
+1610528601416,531,widgets,200,OK,Csae 1 1-3,text,true,,33086,977,3,3,https://192.168.78.11/dashboardr/folders/widgets?_dc=0.022954509194364037,531,0,0
+1610528601411,539,widgets,200,OK,Csae 1 1-2,text,true,,33086,975,3,3,https://192.168.78.11/dashboardr/folders/widgets?_dc=0.7021279328013682,539,0,0
+1610528602007,74,portlets,200,OK,Csae 1 1-2,text,true,,2969,982,3,3,https://192.168.78.11/dashboardr/dashboards/1/portlets?_dc=0.14104391311650855,74,0,0
+1610528602082,12,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-2,text,true,,16167,969,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,11,0,0
+1610528598552,2965,Login 02 (load resource & user accounts),200,"Number of samples in transaction : 54, number of failing samples : 0",Csae 1 1-2,,true,,840451,49824,3,3,null,2948,577,19
+1610528602021,81,portlets,200,OK,Csae 1 1-1,text,true,,2969,982,3,3,https://192.168.78.11/dashboardr/dashboards/1/portlets?_dc=0.26010918089523105,81,0,0
+1610528602019,85,portlets,200,OK,Csae 1 1-3,text,true,,2969,981,3,3,https://192.168.78.11/dashboardr/dashboards/1/portlets?_dc=0.3989642185452422,85,0,0
+1610528602103,2,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-1,text,true,,16167,969,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,2,0,0
+1610528598551,2828,Login 02 (load resource & user accounts),200,"Number of samples in transaction : 54, number of failing samples : 0",Csae 1 1-1,,true,,840467,49817,3,3,null,2811,726,21
+1610528602105,0,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-3,text,true,,16167,969,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,0,0,0
+1610528598551,2980,Login 02 (load resource & user accounts),200,"Number of samples in transaction : 54, number of failing samples : 0",Csae 1 1-3,,true,,840492,49822,3,3,null,2948,575,14
+1610528602146,578,dashboardr/chart_widgets/5,200,OK,parallel bzm - Parallel Controller,text,true,,8379,975,6,3,https://192.168.78.11/dashboardr/chart_widgets/5?_dc=0.4767734591227891,578,0,22
+1610528602125,644,dashboardr/chart_widgets/2,200,OK,parallel bzm - Parallel Controller,text,true,,8522,976,5,3,https://192.168.78.11/dashboardr/chart_widgets/2?_dc=0.42354843352049776,644,0,22
+1610528602125,674,dashboardr/chart_widgets/1,200,OK,parallel bzm - Parallel Controller,text,true,,8472,974,4,3,https://192.168.78.11/dashboardr/chart_widgets/1?_dc=0.632176280739586,674,0,30
+1610528602122,801,dashboardr/chart_widgets/4,200,OK,parallel bzm - Parallel Controller,text,true,,2528,975,3,3,https://192.168.78.11/dashboardr/chart_widgets/4?_dc=0.9933840793649421,801,0,37
+1610528602122,846,dashboardr/chart_widgets/3,200,OK,parallel bzm - Parallel Controller,text,true,,10416,975,2,3,https://192.168.78.11/dashboardr/chart_widgets/3?_dc=0.2477932799456365,846,0,41
+1610528602123,951,dashboardr/chart_widgets/73,200,OK,parallel bzm - Parallel Controller,text,true,,12547,977,1,3,https://192.168.78.11/dashboardr/chart_widgets/73?_dc=0.27087716526719097,951,0,36
+1610528602137,1070,dashboardr/chart_widgets/1,200,OK,parallel bzm - Parallel Controller,text,true,,8472,975,6,3,https://192.168.78.11/dashboardr/chart_widgets/1?_dc=0.8792875286780639,1070,0,40
+1610528602183,1238,dashboardr/chart_widgets/1,200,OK,parallel bzm - Parallel Controller,text,true,,8472,975,6,3,https://192.168.78.11/dashboardr/chart_widgets/1?_dc=0.7589161025017848,1238,0,35
+1610528602192,1380,dashboardr/chart_widgets/3,200,OK,parallel bzm - Parallel Controller,text,true,,10416,975,5,3,https://192.168.78.11/dashboardr/chart_widgets/3?_dc=0.9496400752679414,1380,0,30
+1610528602141,1446,dashboardr/chart_widgets/73,200,OK,parallel bzm - Parallel Controller,text,true,,12547,977,4,3,https://192.168.78.11/dashboardr/chart_widgets/73?_dc=0.24647837904921954,1446,0,36
+1610528602188,1432,dashboardr/chart_widgets/2,200,OK,parallel bzm - Parallel Controller,text,true,,8522,976,3,3,https://192.168.78.11/dashboardr/chart_widgets/2?_dc=0.49204254203860043,1432,0,29
+1610528602254,1529,dashboardr/chart_widgets/4,200,OK,parallel bzm - Parallel Controller,text,true,,2528,975,5,3,https://192.168.78.11/dashboardr/chart_widgets/4?_dc=0.9993219609976491,1529,0,20
+1610528602221,1659,dashboardr/chart_widgets/2,200,OK,parallel bzm - Parallel Controller,text,true,,8522,976,4,3,https://192.168.78.11/dashboardr/chart_widgets/2?_dc=0.32039452247313194,1659,0,38
+1610528602224,1656,dashboardr/chart_widgets/3,200,OK,parallel bzm - Parallel Controller,text,true,,10416,976,4,3,https://192.168.78.11/dashboardr/chart_widgets/3?_dc=0.11669960814494729,1656,0,23
+1610528602246,1724,dashboardr/chart_widgets/5,200,OK,parallel bzm - Parallel Controller,text,true,,8379,976,2,3,https://192.168.78.11/dashboardr/chart_widgets/5?_dc=0.28063292051602207,1724,0,34
+1610528602248,1739,dashboardr/chart_widgets/4,200,OK,parallel bzm - Parallel Controller,text,true,,2528,974,1,3,https://192.168.78.11/dashboardr/chart_widgets/4?_dc=0.710379937207823,1739,0,33
+1610528602185,1898,dashboardr/chart_widgets/73,200,OK,parallel bzm - Parallel Controller,text,true,,12533,976,2,3,https://192.168.78.11/dashboardr/chart_widgets/73?_dc=0.2947972558618611,1897,0,39
+1610528602277,1911,dashboardr/chart_widgets/5,200,OK,parallel bzm - Parallel Controller,text,true,,8379,975,1,3,https://192.168.78.11/dashboardr/chart_widgets/5?_dc=0.1712768102939055,1911,0,11
+1610528603104,1292,dashboardr/chart_widgets/7,200,OK,parallel bzm - Parallel Controller,text,true,,8342,975,4,3,https://192.168.78.11/dashboardr/chart_widgets/7?_dc=0.7692494363727604,1292,0,19
+1610528603098,1329,dashboardr/chart_widgets/9,200,OK,parallel bzm - Parallel Controller,text,true,,11198,975,3,3,https://192.168.78.11/dashboardr/chart_widgets/9?_dc=0.9073581814906739,1328,0,21
+1610528603104,1381,dashboardr/chart_widgets/72,200,OK,parallel bzm - Parallel Controller,text,true,,8840,977,2,3,https://192.168.78.11/dashboardr/chart_widgets/72?_dc=0.13487907862020387,1381,0,24
+1610528604018,639,dashboardr/chart_widgets/72,200,OK,parallel bzm - Parallel Controller,text,true,,8840,976,4,3,https://192.168.78.11/dashboardr/chart_widgets/72?_dc=0.8678726064510704,639,0,19
+1610528604019,685,dashboardr/chart_widgets/7,200,OK,parallel bzm - Parallel Controller,text,true,,8342,975,3,3,https://192.168.78.11/dashboardr/chart_widgets/7?_dc=0.9384528262273055,685,0,23
+1610528604008,737,dashboardr/chart_widgets/9,200,OK,parallel bzm - Parallel Controller,text,true,,11191,976,2,3,https://192.168.78.11/dashboardr/chart_widgets/9?_dc=0.12927248588372975,737,0,17
+1610528603110,1817,dashboardr/chart_widgets/6,200,OK,parallel bzm - Parallel Controller,text,true,,9894,976,1,3,https://192.168.78.11/dashboardr/chart_widgets/6?_dc=0.47821988866516163,1817,0,23
+1610528602106,10313,load widget,200,"Number of samples in transaction : 2, number of failing samples : 0",parallel bzm - Parallel Controller,,true,,89138,9755,1,3,null,10312,-7489,275
+1610528604006,935,dashboardr/chart_widgets/6,200,OK,parallel bzm - Parallel Controller,text,true,,9894,974,1,3,https://192.168.78.11/dashboardr/chart_widgets/6?_dc=0.904740011155744,935,0,18
+1610528602094,11787,load widget,200,"Number of samples in transaction : 2, number of failing samples : 0",parallel bzm - Parallel Controller,,true,,89131,9754,1,3,null,11787,-8938,279
+1610528604216,738,dashboardr/chart_widgets/7,200,OK,parallel bzm - Parallel Controller,text,true,,8342,975,4,3,https://192.168.78.11/dashboardr/chart_widgets/7?_dc=0.4242116924790821,738,0,20
+1610528604213,870,dashboardr/chart_widgets/6,200,OK,parallel bzm - Parallel Controller,text,true,,9894,975,3,3,https://192.168.78.11/dashboardr/chart_widgets/6?_dc=0.4844557383332677,870,0,11
+1610528604220,867,dashboardr/chart_widgets/72,200,OK,parallel bzm - Parallel Controller,text,true,,8847,976,2,3,https://192.168.78.11/dashboardr/chart_widgets/72?_dc=0.6515385368516914,867,0,30
+1610528604938,256,dashboardr/parameters/9,200,OK,parallel load data - Parallel Controller,text,true,,2118,1159,6,3,https://192.168.78.11/dashboardr/parameters/9,256,0,21
+1610528604939,323,dashboardr/parameters/58,200,OK,parallel load data - Parallel Controller,text,true,,3849,1203,5,3,https://192.168.78.11/dashboardr/parameters/58,323,0,20
+1610528604205,1206,dashboardr/chart_widgets/9,200,OK,parallel bzm - Parallel Controller,text,true,,11198,976,1,3,https://192.168.78.11/dashboardr/chart_widgets/9?_dc=0.18493104813187178,1206,0,18
+1610528602105,13572,load widget,200,"Number of samples in transaction : 2, number of failing samples : 0",parallel bzm - Parallel Controller,,true,,89131,9755,1,3,null,13571,-10264,245
+1610528604942,481,dashboardr/parameters/58,200,OK,parallel load data - Parallel Controller,text,true,,3849,1203,4,1,https://192.168.78.11/dashboardr/parameters/58,481,0,31
+1610528604991,518,dashboardr/parameters/58,200,OK,parallel load data - Parallel Controller,text,true,,3849,1203,6,3,https://192.168.78.11/dashboardr/parameters/58,518,0,11
+1610528604975,564,dashboardr/parameters/9,200,OK,parallel load data - Parallel Controller,text,true,,2118,1159,5,3,https://192.168.78.11/dashboardr/parameters/9,563,0,17
+1610528604965,799,dashboardr/chart_widgets/1/data,200,OK,parallel load data - Parallel Controller,text,true,,4897,1571,4,3,https://192.168.78.11/dashboardr/chart_widgets/1/data,799,0,24
+1610528604939,834,dashboardr/chart_widgets/1/data,200,OK,parallel load data - Parallel Controller,text,true,,4897,1571,3,3,https://192.168.78.11/dashboardr/chart_widgets/1/data,834,0,25
+1610528604978,879,dashboardr/parameters/58,200,OK,parallel load data - Parallel Controller,text,true,,3849,1203,3,3,https://192.168.78.11/dashboardr/parameters/58,879,0,17
+1610528605421,601,dashboardr/chart_widgets/1/data,200,OK,parallel load data - Parallel Controller,text,true,,4904,1571,6,3,https://192.168.78.11/dashboardr/chart_widgets/1/data,601,0,16
+1610528605423,636,dashboardr/parameters/58,200,OK,parallel load data - Parallel Controller,text,true,,3849,1203,5,3,https://192.168.78.11/dashboardr/parameters/58,636,0,18
+1610528604947,4966,dashboardr/chart_widgets/73/data,200,OK,parallel load data - Parallel Controller,text,true,,19789,1814,2,3,https://192.168.78.11/dashboardr/chart_widgets/73/data,4966,0,22
+1610528604994,5013,dashboardr/chart_widgets/73/data,200,OK,parallel load data - Parallel Controller,text,true,,19789,1814,2,3,https://192.168.78.11/dashboardr/chart_widgets/73/data,5013,0,9
+1610528605431,4655,dashboardr/parameters/9,200,OK,parallel load data - Parallel Controller,text,true,,2118,1159,4,3,https://192.168.78.11/dashboardr/parameters/9,4655,0,21
+1610528605433,4653,dashboardr/parameters/58,200,OK,parallel load data - Parallel Controller,text,true,,3849,1203,4,3,https://192.168.78.11/dashboardr/parameters/58,4653,0,14
+1610528605431,7677,dashboardr/chart_widgets/73/data,200,OK,parallel load data - Parallel Controller,text,true,,19804,1814,2,3,https://192.168.78.11/dashboardr/chart_widgets/73/data,7677,0,16
+1610528604941,15863,dashboardr/chart_widgets/2/data,200,OK,parallel load data - Parallel Controller,text,true,,5089,1571,1,3,https://192.168.78.11/dashboardr/chart_widgets/2/data,15863,0,36
+1610528604931,22723,load data,200,"Number of samples in transaction : 1, number of failing samples : 0",parallel load data - Parallel Controller,,true,,39591,8521,1,3,null,22723,-6848,155
+1610528602106,33036,Login 05 (load dashboard),200,"Number of samples in transaction : 4, number of failing samples : 0",parallel load data - Parallel Controller,,true,,128729,18276,1,3,null,33035,-14336,430
+1610528605434,15428,dashboardr/chart_widgets/2/data,200,OK,parallel load data - Parallel Controller,text,true,,5082,1571,1,3,https://192.168.78.11/dashboardr/chart_widgets/2/data,15427,0,14
+1610528620830,32,checkSession,200,,Csae 1 1-3,text,true,,480,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5958740769629451,32,0,19
+1610528605414,33650,load data,200,"Number of samples in transaction : 1, number of failing samples : 0",parallel load data - Parallel Controller,,true,,39606,8521,1,3,null,33649,-18200,99
+1610528602105,47222,Login 05 (load dashboard),200,"Number of samples in transaction : 4, number of failing samples : 0",parallel load data - Parallel Controller,,true,,128737,18276,1,3,null,47220,-28463,344
+1610528604965,15893,dashboardr/chart_widgets/2/data,200,OK,parallel load data - Parallel Controller,text,true,,5089,1571,1,3,https://192.168.78.11/dashboardr/chart_widgets/2/data,15893,0,14
+1610528604943,23666,load data,200,"Number of samples in transaction : 1, number of failing samples : 0",parallel load data - Parallel Controller,,true,,39591,8521,1,3,null,23665,-7742,92
+1610528602094,35453,Login 05 (load dashboard),200,"Number of samples in transaction : 4, number of failing samples : 0",parallel load data - Parallel Controller,,true,,128722,18275,1,3,null,35452,-16680,371
+1610528620879,24,checkSession,200,,Csae 1 1-2,text,true,,480,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.07179020160825689,24,0,14
+1610528620880,28,checkSession,200,,Csae 1 1-1,text,true,,480,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.18112755745708242,27,0,18
+1610528635837,40,checkSession,200,,Csae 1 1-3,text,true,,480,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.7477143513790574,40,0,28
+1610528635880,20,checkSession,200,,Csae 1 1-2,text,true,,480,980,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.520095406086164,20,0,13
+1610528635880,27,checkSession,200,,Csae 1 1-1,text,true,,480,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.14289035216546764,27,0,18
+1610528650841,31,checkSession,200,,Csae 1 1-3,text,true,,480,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.4789069492495155,31,0,18
+1610528650880,54,checkSession,200,,Csae 1 1-1,text,true,,480,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6759002926338536,54,0,45
+1610528650883,52,checkSession,200,,Csae 1 1-2,text,true,,480,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5676763148545928,52,0,45
+1610528665842,37,checkSession,200,,Csae 1 1-3,text,true,,480,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.4205358858574201,36,0,20
+1610528665878,21,checkSession,200,,Csae 1 1-1,text,true,,480,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.1387698079275418,21,0,12
+1610528665879,28,checkSession,200,,Csae 1 1-2,text,true,,480,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.8696792769820194,28,0,19
+1610528680834,27,checkSession,200,,Csae 1 1-3,text,true,,480,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.11904852701154056,27,0,18
+1610528680878,18,checkSession,200,,Csae 1 1-2,text,true,,480,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.33604443632963565,18,0,13
+1610528680879,32,checkSession,200,,Csae 1 1-1,text,true,,480,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.31974128739143737,31,0,22
+1610528695834,30,checkSession,200,,Csae 1 1-3,text,true,,480,980,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.832043678775871,30,0,21
+1610528695877,23,checkSession,200,,Csae 1 1-1,text,true,,480,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.4586109757557265,23,0,11
+1610528695883,23,checkSession,200,,Csae 1 1-2,text,true,,480,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.8053189551064076,23,0,16
+1610528710837,30,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.8720986151457998,30,0,20
+1610528710878,18,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.7584889634301035,18,0,11
+1610528710878,23,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5067665175605015,23,0,16
+1610528725835,27,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.7945763663908535,27,0,15
+1610528725880,23,checkSession,200,,Csae 1 1-1,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.19184107493679092,23,0,13
+1610528725881,24,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.3871819384639452,24,0,18
+1610528740833,33,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.7058295477832699,33,0,22
+1610528740882,27,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5735283121713087,27,0,16
+1610528740882,30,checkSession,200,,Csae 1 1-1,text,true,,481,980,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.951178845058336,30,0,21
+1610528755835,24,checkSession,200,,Csae 1 1-3,text,true,,481,983,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=5.506104228605313E-4,24,0,15
+1610528755879,22,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.4443559068545051,22,0,14
+1610528755878,24,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6074601729311466,24,0,16
+1610528770835,24,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.9035584648881554,24,0,14
+1610528770878,18,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5147991075141585,18,0,10
+1610528770878,24,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6989314581175634,24,0,17
+1610528785834,33,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.7378951403197798,33,0,24
+1610528785868,23,eventCount,200,,Csae 1 1-3,text,true,,376,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,23,0,0
+1610528785883,26,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.2944494317483167,26,0,21
+1610528785880,30,checkSession,200,,Csae 1 1-2,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.16193416664833127,30,0,22
+1610528785910,22,eventCount,200,,Csae 1 1-2,text,true,,376,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,22,0,0
+1610528785910,22,eventCount,200,,Csae 1 1-1,text,true,,376,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,22,0,0
+1610528800834,21,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.4909977690800992,21,0,12
+1610528800883,22,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6077909987357945,22,0,12
+1610528800877,31,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.4187295870099874,31,0,19
+1610528815834,28,checkSession,200,,Csae 1 1-3,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.43209446448618927,28,0,14
+1610528815877,19,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5848510365434344,19,0,11
+1610528815878,20,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.7873910071740002,20,0,14
+1610528830835,33,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.7124399941508538,33,0,24
+1610528830890,23,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.4956401969865427,23,0,15
+1610528830883,32,checkSession,200,,Csae 1 1-1,text,true,,481,980,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.834998047640087,32,0,24
+1610528845834,34,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5561789653648894,34,0,21
+1610528845878,20,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.8734013182802272,20,0,12
+1610528845878,23,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.8922017457364894,23,0,15
+1610528860834,25,checkSession,200,,Csae 1 1-3,text,true,,481,983,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=8.064085713775926E-4,25,0,15
+1610528860883,25,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6454357806711886,25,0,12
+1610528860886,25,checkSession,200,,Csae 1 1-2,text,true,,481,979,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.69388414514259,25,0,17
+1610528875833,24,checkSession,200,,Csae 1 1-3,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.15974924489851894,24,0,15
+1610528875882,22,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5535956649023763,22,0,14
+1610528875884,23,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5951692564471898,23,0,14
+1610528890834,32,checkSession,200,,Csae 1 1-3,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.14439320066110295,32,0,23
+1610528890880,26,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.9508343559840352,26,0,16
+1610528890879,29,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.7297220589313743,29,0,20
+1610528905834,24,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.8740530676198083,24,0,14
+1610528905877,21,checkSession,200,,Csae 1 1-1,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.23661964273124547,21,0,14
+1610528905878,26,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.8368784635659839,26,0,19
+1610528920832,23,checkSession,200,,Csae 1 1-3,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.21319939038452662,23,0,14
+1610528920882,25,checkSession,200,,Csae 1 1-1,text,true,,481,979,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.93450023952658,25,0,17
+1610528920882,25,checkSession,200,,Csae 1 1-2,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.48720304782545365,25,0,18
+1610528935833,29,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5188441449693629,29,0,17
+1610528935879,21,checkSession,200,,Csae 1 1-1,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.18069950509938104,20,0,13
+1610528935880,27,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6210408052942189,27,0,20
+1610528950832,32,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.9033054144120761,31,0,23
+1610528950881,30,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6233420299450202,30,0,21
+1610528950887,26,checkSession,200,,Csae 1 1-2,text,true,,481,980,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.967684930404732,26,0,18
+1610528965833,25,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.9317205482642983,25,0,17
+1610528965859,19,eventCount,200,,Csae 1 1-3,text,true,,376,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,19,0,0
+1610528965878,24,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.3548433946945675,24,0,16
+1610528965880,27,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.9647379016268369,27,0,21
+1610528965908,9,eventCount,200,,Csae 1 1-1,text,true,,376,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,9,0,0
+1610528965903,16,eventCount,200,,Csae 1 1-2,text,true,,376,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,16,0,0
+1610528980832,30,checkSession,200,,Csae 1 1-3,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.34455488590101413,30,0,20
+1610528980878,24,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6853441938142356,23,0,13
+1610528980878,25,checkSession,200,,Csae 1 1-2,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.48300928726538084,25,0,13
+1610528995834,34,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.9722176363104732,34,0,24
+1610528995878,19,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.3174334658418966,19,0,10
+1610528995878,21,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.2701739279954688,21,0,14
+1610529010833,27,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.8223135618766777,27,0,18
+1610529010883,25,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6624364426845315,25,0,17
+1610529010880,28,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.7432006134199542,28,0,22
+1610529025834,27,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.7283436185215634,27,0,19
+1610529025882,24,checkSession,200,,Csae 1 1-2,text,true,,481,983,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.018133139258401765,24,0,17
+1610529025882,26,checkSession,200,,Csae 1 1-1,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.19762384938042932,26,0,18
+1610529040833,23,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.9377526639523461,23,0,14
+1610529040880,23,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6169793114461369,23,0,15
+1610529040881,23,checkSession,200,,Csae 1 1-2,text,true,,481,983,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.046335436970312505,23,0,14
+1610529055836,27,checkSession,200,,Csae 1 1-3,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.22659487088517394,27,0,18
+1610529055879,23,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5446155439879039,23,0,16
+1610529055881,23,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.1964965889341126,23,0,16
+1610529070832,30,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.2942180512694985,30,0,17
+1610529070881,25,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.7373417351188009,25,0,17
+1610529070881,28,checkSession,200,,Csae 1 1-1,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.41968997587722245,28,0,21
+1610529085834,26,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6687522270776106,25,0,17
+1610529085886,23,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5999841599515481,23,0,15
+1610529085885,26,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6416692809751463,26,0,19
+1610529100837,33,checkSession,200,,Csae 1 1-3,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.09296552137344061,33,0,24
+1610529100880,19,checkSession,200,,Csae 1 1-1,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.44001843468578417,19,0,10
+1610529100880,25,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5777027577409682,25,0,18
+1610529115833,30,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6877875155530156,30,0,18
+1610529115878,20,checkSession,200,,Csae 1 1-1,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.8832332763872472,20,0,11
+1610529115878,21,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.8425987674623584,21,0,13
+1610529130833,32,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.9649061075307911,32,0,23
+1610529130879,30,checkSession,200,,Csae 1 1-1,text,true,,481,982,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.12137241872760651,30,0,23
+1610529130880,30,checkSession,200,,Csae 1 1-2,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.6394987769937054,30,0,23
+1610529145834,30,checkSession,200,,Csae 1 1-3,text,true,,481,981,3,3,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.9257297076846955,30,0,13
+1610529145865,18,eventCount,200,,Csae 1 1-3,text,true,,376,975,3,3,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,18,0,0
+1610528620807,1107,Login 06 (load Session and eventCount),200,"Number of samples in transaction : 40, number of failing samples : 0",Csae 1 1-3,,true,,18438,38252,3,3,null,1104,523968,668
+1610529145884,2,Finish_Delay_Timer,200,OK,Csae 1 1-3,text,true,,114,0,3,3,null,0,0,0
+1610529145880,19,checkSession,200,,Csae 1 1-2,text,true,,481,981,2,2,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.5247445738722148,19,0,12
+1610529145882,36,checkSession,200,,Csae 1 1-1,text,true,,481,980,2,2,https://192.168.78.11/dcTrackApp/api/user/checkSession?_dc=0.878754490132277,36,0,18
+1610529145900,20,eventCount,200,,Csae 1 1-2,text,true,,376,975,2,2,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,20,0,0
+1610528620867,964,Login 06 (load Session and eventCount),200,"Number of samples in transaction : 40, number of failing samples : 0",Csae 1 1-2,,true,,18438,38246,2,2,null,964,524088,624
+1610529145921,0,Finish_Delay_Timer,200,OK,Csae 1 1-2,text,true,,114,0,2,2,null,0,0,0
+1610529145919,9,eventCount,200,,Csae 1 1-1,text,true,,376,975,1,1,https://192.168.78.11/dcTrackApp/api/v2/events/eventCount?status=active,9,0,0
+1610528620864,951,Login 06 (load Session and eventCount),200,"Number of samples in transaction : 40, number of failing samples : 0",Csae 1 1-1,,true,,18438,38246,1,1,null,947,524112,594
+1610529145929,0,Finish_Delay_Timer,200,OK,Csae 1 1-1,text,true,,114,0,1,1,null,0,0,0

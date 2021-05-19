@@ -1,0 +1,287 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1614708927932,0,dummy origin,200,OK,Csae 1 1-1,text,true,,114,0,1,1,null,0,0,0
+1614709188298,19,load quick link-0,302,Moved Temporarily,Csae 1 1-9,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,19,0,16
+1614709188299,18,load quick link-0,302,Moved Temporarily,Csae 1 1-11,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,18,0,17
+1614709188300,19,load quick link-0,302,Moved Temporarily,Csae 1 1-2,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,19,0,18
+1614709188324,8,load quick link-0,302,Moved Temporarily,Csae 1 1-12,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,8,0,8
+1614709188337,13,load quick link-0,302,Moved Temporarily,Csae 1 1-8,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,13,0,13
+1614709188340,11,load quick link-0,302,Moved Temporarily,Csae 1 1-1,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,11,0,10
+1614709188362,17,load quick link-0,302,Moved Temporarily,Csae 1 1-3,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,17,0,16
+1614709188502,17,load quick link-0,302,Moved Temporarily,Csae 1 1-6,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,17,0,15
+1614709188519,14,load quick link-0,302,Moved Temporarily,Csae 1 1-4,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,14,0,13
+1614709188541,18,load quick link-0,302,Moved Temporarily,Csae 1 1-10,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,18,0,15
+1614709188546,15,load quick link-0,302,Moved Temporarily,Csae 1 1-14,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,15,0,14
+1614709188577,16,load quick link-0,302,Moved Temporarily,Csae 1 1-7,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,16,0,16
+1614709188588,12,load quick link-0,302,Moved Temporarily,Csae 1 1-15,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,12,0,11
+1614709188609,14,load quick link-0,302,Moved Temporarily,Csae 1 1-5,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,14,0,13
+1614709188683,15,load quick link-0,302,Moved Temporarily,Csae 1 1-13,text,true,,481,966,15,15,https://192.168.78.11/link/e9c2d741-0db5-4d96-8e55-7ac0fd267e55,15,0,13
+1614709188317,0,load quick link-1,200,OK,Csae 1 1-9,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,0,0,0
+1614709188317,1,load quick link-1,200,OK,Csae 1 1-11,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,1,0,0
+1614709188319,0,load quick link-1,200,OK,Csae 1 1-2,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,0,0,0
+1614709188332,1,load quick link-1,200,OK,Csae 1 1-12,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,1,0,0
+1614709188350,1,load quick link-1,200,OK,Csae 1 1-8,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,1,0,0
+1614709188351,1,load quick link-1,200,OK,Csae 1 1-1,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,1,0,0
+1614709188379,1,load quick link-1,200,OK,Csae 1 1-3,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,1,0,0
+1614709188519,1,load quick link-1,200,OK,Csae 1 1-6,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,1,0,0
+1614709188533,1,load quick link-1,200,OK,Csae 1 1-4,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,1,0,0
+1614709188559,1,load quick link-1,200,OK,Csae 1 1-10,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,1,0,0
+1614709188561,0,load quick link-1,200,OK,Csae 1 1-14,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,0,0,0
+1614709188594,1,load quick link-1,200,OK,Csae 1 1-7,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,1,0,0
+1614709188600,1,load quick link-1,200,OK,Csae 1 1-15,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,1,0,0
+1614709188623,1,load quick link-1,200,OK,Csae 1 1-5,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,1,0,0
+1614709188698,2,load quick link-1,200,OK,Csae 1 1-13,text,true,,1516,930,15,15,https://192.168.78.11/dcim/#/?target=e9c2d741-0db5-4d96-8e55-7ac0fd267e55,2,0,0
+1614708930367,56,sunbird-login-bg.jpg,200,OK,Csae 1 1-1,bin,true,,687735,668,1,1,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,26,0,0
+1614708945055,11,sunbird-login-bg.jpg,200,OK,Csae 1 1-2,bin,true,,687735,668,2,2,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,1,0,0
+1614708962022,7,sunbird-login-bg.jpg,200,OK,Csae 1 1-3,bin,true,,687735,668,3,3,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,1,0,0
+1614708979029,7,sunbird-login-bg.jpg,200,OK,Csae 1 1-4,bin,true,,687735,668,4,4,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,2,0,0
+1614708996036,9,sunbird-login-bg.jpg,200,OK,Csae 1 1-5,bin,true,,687735,668,5,5,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,2,0,0
+1614709012995,6,sunbird-login-bg.jpg,200,OK,Csae 1 1-6,bin,true,,687735,668,6,6,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,1,0,0
+1614709029972,6,sunbird-login-bg.jpg,200,OK,Csae 1 1-7,bin,true,,687735,668,7,7,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,1,0,0
+1614709046964,6,sunbird-login-bg.jpg,200,OK,Csae 1 1-8,bin,true,,687735,668,8,8,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,0,0,0
+1614709063944,6,sunbird-login-bg.jpg,200,OK,Csae 1 1-9,bin,true,,687735,668,9,9,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,1,0,0
+1614709080949,6,sunbird-login-bg.jpg,200,OK,Csae 1 1-10,bin,true,,687735,668,10,10,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,1,0,0
+1614709097940,5,sunbird-login-bg.jpg,200,OK,Csae 1 1-11,bin,true,,687735,668,11,11,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,0,0,0
+1614709114961,5,sunbird-login-bg.jpg,200,OK,Csae 1 1-12,bin,true,,687735,668,12,12,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,0,0,0
+1614709131971,6,sunbird-login-bg.jpg,200,OK,Csae 1 1-13,bin,true,,687735,668,13,13,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,0,0,0
+1614709148960,6,sunbird-login-bg.jpg,200,OK,Csae 1 1-14,bin,true,,687735,668,14,14,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,1,0,0
+1614709165930,6,sunbird-login-bg.jpg,200,OK,Csae 1 1-15,bin,true,,687735,668,15,15,https://192.168.78.11/assets/raritan_assets/sunbird-login-bg-cfcde8aba14a2957fa25808c60c88d68d20c7d694dce2fb1392fd806c0d46459.jpg,0,0,0
+1614708930425,2,sunbird-logo-white.png,200,OK,Csae 1 1-1,bin,true,,10090,670,1,1,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,2,0,0
+1614708945067,1,sunbird-logo-white.png,200,OK,Csae 1 1-2,bin,true,,10090,670,2,2,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,1,0,0
+1614708962029,1,sunbird-logo-white.png,200,OK,Csae 1 1-3,bin,true,,10090,670,3,3,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,1,0,0
+1614708979037,1,sunbird-logo-white.png,200,OK,Csae 1 1-4,bin,true,,10090,670,4,4,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,1,0,0
+1614708996045,1,sunbird-logo-white.png,200,OK,Csae 1 1-5,bin,true,,10090,670,5,5,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,1,0,0
+1614709013001,1,sunbird-logo-white.png,200,OK,Csae 1 1-6,bin,true,,10090,670,6,6,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,1,0,0
+1614709029978,1,sunbird-logo-white.png,200,OK,Csae 1 1-7,bin,true,,10090,670,7,7,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,1,0,0
+1614709046970,0,sunbird-logo-white.png,200,OK,Csae 1 1-8,bin,true,,10090,670,8,8,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,0,0,0
+1614709063950,1,sunbird-logo-white.png,200,OK,Csae 1 1-9,bin,true,,10090,670,9,9,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,1,0,0
+1614709080955,1,sunbird-logo-white.png,200,OK,Csae 1 1-10,bin,true,,10090,670,10,10,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,1,0,0
+1614709097946,0,sunbird-logo-white.png,200,OK,Csae 1 1-11,bin,true,,10090,670,11,11,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,0,0,0
+1614709114967,0,sunbird-logo-white.png,200,OK,Csae 1 1-12,bin,true,,10090,670,12,12,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,0,0,0
+1614709131977,0,sunbird-logo-white.png,200,OK,Csae 1 1-13,bin,true,,10090,670,13,13,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,0,0,0
+1614709148967,0,sunbird-logo-white.png,200,OK,Csae 1 1-14,bin,true,,10090,670,14,14,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,0,0,0
+1614709165936,1,sunbird-logo-white.png,200,OK,Csae 1 1-15,bin,true,,10090,670,15,15,https://192.168.78.11/assets/raritan_assets/sunbird-logo-white-7ec124f9162fab9ec2744d9284eb21e22d9d0fb679939b5c0f586d9735579d4a.png,1,0,0
+1614708930428,11,fontawesome-webfont.woff2,200,OK,Csae 1 1-1,text,true,,77507,679,1,1,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,9,0,0
+1614708932654,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-1,text,true,,77507,1043,1,1,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,2,0,0
+1614708936331,38,fontawesome-webfont.woff2,200,OK,Csae 1 1-1,text,true,,77512,967,1,1,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,38,0,0
+1614708945069,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-2,text,true,,77507,679,2,2,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614708945775,5,fontawesome-webfont.woff2,200,OK,Csae 1 1-2,text,true,,77507,1043,2,2,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614708947242,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-2,text,true,,77512,967,2,2,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,1,0,0
+1614708962030,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-3,text,true,,77507,679,3,3,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614708962670,5,fontawesome-webfont.woff2,200,OK,Csae 1 1-3,text,true,,77507,1043,3,3,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614708964032,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-3,text,true,,77512,967,3,3,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,2,0,0
+1614708979039,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-4,text,true,,77507,679,4,4,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614708979647,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-4,text,true,,77507,1043,4,4,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614708980915,0,fontawesome-webfont.woff2,200,OK,Csae 1 1-4,text,true,,77512,967,4,4,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,0,0,0
+1614708996047,3,fontawesome-webfont.woff2,200,OK,Csae 1 1-5,text,true,,77507,679,5,5,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614708996651,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-5,text,true,,77507,1043,5,5,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614708997864,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-5,text,true,,77512,967,5,5,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,1,0,0
+1614709013002,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-6,text,true,,77507,679,6,6,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709013612,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-6,text,true,,77507,1043,6,6,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709014817,6,fontawesome-webfont.woff2,200,OK,Csae 1 1-6,text,true,,77512,967,6,6,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,0,0,0
+1614709029979,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-7,text,true,,77507,679,7,7,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709030530,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-7,text,true,,77507,1043,7,7,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709031661,15,fontawesome-webfont.woff2,200,OK,Csae 1 1-7,text,true,,77512,967,7,7,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,15,0,14
+1614709046971,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-8,text,true,,77507,679,8,8,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709047590,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-8,text,true,,77507,1043,8,8,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709048808,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-8,text,true,,77512,967,8,8,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,1,0,0
+1614709063951,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-9,text,true,,77507,679,9,9,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709064534,0,fontawesome-webfont.woff2,200,OK,Csae 1 1-9,text,true,,77507,1043,9,9,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709065643,15,fontawesome-webfont.woff2,200,OK,Csae 1 1-9,text,true,,77512,967,9,9,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,15,0,14
+1614709080956,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-10,text,true,,77507,679,10,10,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709081520,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-10,text,true,,77507,1043,10,10,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709082670,15,fontawesome-webfont.woff2,200,OK,Csae 1 1-10,text,true,,77512,967,10,10,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,15,0,14
+1614709097947,0,fontawesome-webfont.woff2,200,OK,Csae 1 1-11,text,true,,77507,679,11,11,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709098502,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-11,text,true,,77507,1043,11,11,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709099627,15,fontawesome-webfont.woff2,200,OK,Csae 1 1-11,text,true,,77512,967,11,11,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,15,0,14
+1614709114967,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-12,text,true,,77507,679,12,12,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709115520,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-12,text,true,,77507,1043,12,12,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709116731,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-12,text,true,,77512,967,12,12,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,0,0,0
+1614709131978,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-13,text,true,,77507,679,13,13,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709132542,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-13,text,true,,77507,1043,13,13,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709133589,17,fontawesome-webfont.woff2,200,OK,Csae 1 1-13,text,true,,77512,967,13,13,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,17,0,16
+1614709148967,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-14,text,true,,77507,679,14,14,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709149504,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-14,text,true,,77507,1043,14,14,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709150585,14,fontawesome-webfont.woff2,200,OK,Csae 1 1-14,text,true,,77512,967,14,14,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,14,0,13
+1614709165937,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-15,text,true,,77507,679,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709166445,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-15,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709167516,17,fontawesome-webfont.woff2,200,OK,Csae 1 1-15,text,true,,77512,967,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,17,0,16
+1614709190123,4,fontawesome-webfont.woff2,200,OK,Csae 1 1-12,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709190144,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-11,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709190192,7,fontawesome-webfont.woff2,200,OK,Csae 1 1-1,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709190194,6,fontawesome-webfont.woff2,200,OK,Csae 1 1-9,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,6,0,0
+1614709190202,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-2,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709190270,3,fontawesome-webfont.woff2,200,OK,Csae 1 1-3,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,2,0,0
+1614709190273,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-8,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709190514,6,fontawesome-webfont.woff2,200,OK,Csae 1 1-4,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,2,0,0
+1614709190542,5,fontawesome-webfont.woff2,200,OK,Csae 1 1-15,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709190546,14,fontawesome-webfont.woff2,200,OK,Csae 1 1-14,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,11,0,9
+1614709190559,6,fontawesome-webfont.woff2,200,OK,Csae 1 1-6,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,0,0,0
+1614709190616,6,fontawesome-webfont.woff2,200,OK,Csae 1 1-13,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709190628,6,fontawesome-webfont.woff2,200,OK,Csae 1 1-10,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,2,0,0
+1614709190640,7,fontawesome-webfont.woff2,200,OK,Csae 1 1-7,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,1,0,0
+1614709190647,9,fontawesome-webfont.woff2,200,OK,Csae 1 1-5,text,true,,77507,1043,15,15,https://192.168.78.11/assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2?v=4.7.0,2,0,0
+1614709196388,5,fontawesome-webfont.woff2,200,OK,Csae 1 1-12,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,5,0,0
+1614709197256,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-9,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,1,0,0
+1614709197343,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-8,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,1,0,0
+1614709198054,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-1,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,2,0,0
+1614709198285,4,fontawesome-webfont.woff2,200,OK,Csae 1 1-2,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,3,0,0
+1614709198285,4,fontawesome-webfont.woff2,200,OK,Csae 1 1-10,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,3,0,0
+1614709198418,4,fontawesome-webfont.woff2,200,OK,Csae 1 1-3,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,3,0,0
+1614709198607,1,fontawesome-webfont.woff2,200,OK,Csae 1 1-11,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,1,0,0
+1614709198900,4,fontawesome-webfont.woff2,200,OK,Csae 1 1-15,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,3,0,0
+1614709199091,4,fontawesome-webfont.woff2,200,OK,Csae 1 1-5,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,4,0,0
+1614709199507,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-7,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,2,0,0
+1614709200076,3,fontawesome-webfont.woff2,200,OK,Csae 1 1-6,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,3,0,0
+1614709200479,3,fontawesome-webfont.woff2,200,OK,Csae 1 1-13,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,3,0,0
+1614709200546,3,fontawesome-webfont.woff2,200,OK,Csae 1 1-4,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,2,0,0
+1614709200661,2,fontawesome-webfont.woff2,200,OK,Csae 1 1-14,text,true,,77512,1155,15,15,https://192.168.78.11/app/assets/fonts/fontawesome-webfont.woff2,2,0,0
+1614708932650,2,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-1,text,true,,16087,960,1,1,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,2,0,0
+1614708936371,46,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-1,text,true,,16087,972,1,1,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,46,0,21
+1614708945772,2,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-2,text,true,,16087,960,2,2,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,2,0,0
+1614708947244,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-2,text,true,,16087,972,2,2,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614708962667,2,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-3,text,true,,16087,960,3,3,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,2,0,0
+1614708964035,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-3,text,true,,16087,972,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614708979646,0,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-4,text,true,,16087,960,4,4,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,0,0,0
+1614708980916,0,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-4,text,true,,16087,972,4,4,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,0,0,0
+1614708996650,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-5,text,true,,16087,960,5,5,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614708997866,0,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-5,text,true,,16087,972,5,5,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,0,0,0
+1614709013610,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-6,text,true,,16087,960,6,6,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709014823,4,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-6,text,true,,16087,972,6,6,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,4,0,0
+1614709030529,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-7,text,true,,16087,960,7,7,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709031676,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-7,text,true,,16087,972,7,7,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709047588,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-8,text,true,,16087,960,8,8,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709048809,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-8,text,true,,16087,972,8,8,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709064532,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-9,text,true,,16087,960,9,9,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709065659,0,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-9,text,true,,16087,972,9,9,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,0,0,0
+1614709081519,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-10,text,true,,16087,960,10,10,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709082685,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-10,text,true,,16087,972,10,10,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709098501,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-11,text,true,,16087,960,11,11,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709099642,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-11,text,true,,16087,972,11,11,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709115519,0,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-12,text,true,,16087,960,12,12,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,0,0,0
+1614709116732,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-12,text,true,,16087,972,12,12,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709132541,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-13,text,true,,16087,960,13,13,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709133607,0,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-13,text,true,,16087,972,13,13,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,0,0,0
+1614709149502,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-14,text,true,,16087,960,14,14,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709150599,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-14,text,true,,16087,972,14,14,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709166444,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-15,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709167534,0,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-15,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,0,0,0
+1614709190122,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-12,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709190140,3,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-11,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,3,0,0
+1614709190190,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-1,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709190192,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-9,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709190200,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-2,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709190269,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-3,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709190271,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-8,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709190512,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-4,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709190539,2,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-15,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,2,0,0
+1614709190544,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-14,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,1,0,0
+1614709190556,2,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-6,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,2,0,0
+1614709190613,3,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-13,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,3,0,0
+1614709190621,7,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-10,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,7,0,0
+1614709190620,19,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-7,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,19,0,15
+1614709190636,11,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-5,text,true,,16087,960,15,15,https://192.168.78.11/dcim/roboto-v20-latin-regular.woff2,11,0,8
+1614709192708,2,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-11,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,2,0,0
+1614709192836,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-1,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709192844,0,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-8,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,0,0,0
+1614709192912,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-12,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709193045,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-9,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709193074,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-3,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709193164,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-2,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709193998,7,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-15,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,7,0,0
+1614709194006,11,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-13,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,11,0,0
+1614709194105,4,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-6,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,4,0,0
+1614709194204,3,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-5,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,3,0,0
+1614709194244,1,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-7,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,1,0,0
+1614709194595,15,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-14,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,15,0,13
+1614709194641,19,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-4,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,19,0,14
+1614709194979,2,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-10,text,true,,16087,972,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,2,0,0
+1614709219601,11,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-8,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,11,0,8
+1614709219612,8,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-9,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,8,0,7
+1614709219602,20,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-2,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,20,0,17
+1614709219603,19,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-15,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,19,0,18
+1614709219613,10,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-1,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,10,0,8
+1614709219615,9,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-12,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,9,0,7
+1614709219612,14,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-10,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,14,0,12
+1614709219615,12,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-4,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,12,0,12
+1614709219619,9,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-11,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,9,0,8
+1614709219620,10,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-5,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,10,0,9
+1614709219618,14,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-3,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,14,0,13
+1614709219625,9,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-6,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,9,0,9
+1614709225882,20,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-7,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,20,0,17
+1614709226209,20,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-14,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,20,0,12
+1614709227566,30,roboto-v20-latin-regular.woff2,200,OK,Csae 1 1-13,text,true,,16087,1160,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-regular.woff2,30,0,12
+1614708937444,22,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-1,text,true,,16167,968,1,1,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,22,0,0
+1614708947503,1,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-2,text,true,,16167,968,2,2,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,1,0,0
+1614708964162,1,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-3,text,true,,16167,968,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,1,0,0
+1614708981060,1,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-4,text,true,,16167,968,4,4,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,1,0,0
+1614708998068,1,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-5,text,true,,16167,968,5,5,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,1,0,0
+1614709014995,2,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-6,text,true,,16167,968,6,6,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,2,0,0
+1614709031805,1,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-7,text,true,,16167,968,7,7,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,1,0,0
+1614709048940,0,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-8,text,true,,16167,968,8,8,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,0,0,0
+1614709065787,1,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-9,text,true,,16167,968,9,9,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,1,0,0
+1614709082817,1,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-10,text,true,,16167,968,10,10,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,1,0,0
+1614709099770,1,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-11,text,true,,16167,968,11,11,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,1,0,0
+1614709116870,0,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-12,text,true,,16167,968,12,12,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,0,0,0
+1614709133749,1,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-13,text,true,,16167,968,13,13,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,1,0,0
+1614709150700,1,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-14,text,true,,16167,968,14,14,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,1,0,0
+1614709167643,1,roboto-v20-latin-700.woff2,200,OK,Csae 1 1-15,text,true,,16167,968,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-700.woff2,1,0,0
+1614708936260,69,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-1,text,true,,16223,968,1,1,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,69,0,0
+1614708947239,2,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-2,text,true,,16223,968,2,2,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,2,0,0
+1614708964031,1,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-3,text,true,,16223,968,3,3,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,1,0,0
+1614708980913,1,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-4,text,true,,16223,968,4,4,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,1,0,0
+1614708997863,1,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-5,text,true,,16223,968,5,5,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,1,0,0
+1614709014816,0,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-6,text,true,,16223,968,6,6,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,0,0,0
+1614709031659,1,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-7,text,true,,16218,968,7,7,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,1,0,0
+1614709048804,4,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-8,text,true,,16223,968,8,8,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,4,0,0
+1614709065642,1,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-9,text,true,,16218,968,9,9,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,0,0,0
+1614709082669,1,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-10,text,true,,16218,968,10,10,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,0,0,0
+1614709099626,1,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-11,text,true,,16218,968,11,11,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,0,0,0
+1614709116730,1,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-12,text,true,,16223,968,12,12,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,1,0,0
+1614709133588,1,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-13,text,true,,16218,968,13,13,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,0,0,0
+1614709150584,1,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-14,text,true,,16218,968,14,14,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,0,0,0
+1614709167514,1,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-15,text,true,,16218,968,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,1,0,0
+1614709196365,22,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-12,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,22,0,19
+1614709197238,17,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-9,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,17,0,17
+1614709197328,15,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-8,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,15,0,14
+1614709198034,19,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-1,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,19,0,15
+1614709198266,18,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-2,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,18,0,13
+1614709198266,18,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-10,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,18,0,14
+1614709198398,20,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-3,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,20,0,19
+1614709198582,24,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-11,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,24,0,17
+1614709198880,19,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-15,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,19,0,16
+1614709199074,17,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-5,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,17,0,14
+1614709199492,14,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-7,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,14,0,13
+1614709200061,15,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-6,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,15,0,13
+1614709200464,14,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-13,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,14,0,12
+1614709200528,17,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-4,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,17,0,14
+1614709200642,18,roboto-v20-latin-500.woff2,200,OK,Csae 1 1-14,text,true,,16223,1156,15,15,https://192.168.78.11/app/assets/fonts/roboto-v20-latin-500.woff2,18,0,14
+1614708930523,368,login-0,302,Found,Csae 1 1-1,text,true,,1439,849,1,1,https://192.168.78.11/login/login,368,0,0
+1614708945073,43,login-0,302,Found,Csae 1 1-2,text,true,,1439,857,2,2,https://192.168.78.11/login/login,43,0,0
+1614708962034,36,login-0,302,Found,Csae 1 1-3,text,true,,1439,851,3,3,https://192.168.78.11/login/login,36,0,0
+1614708979044,60,login-0,302,Found,Csae 1 1-4,text,true,,1439,861,4,4,https://192.168.78.11/login/login,60,0,0
+1614708996053,32,login-0,302,Found,Csae 1 1-5,text,true,,1439,855,5,5,https://192.168.78.11/login/login,32,0,0
+1614709013005,66,login-0,302,Found,Csae 1 1-6,text,true,,1439,853,6,6,https://192.168.78.11/login/login,66,0,0
+1614709029981,39,login-0,302,Found,Csae 1 1-7,text,true,,1439,847,7,7,https://192.168.78.11/login/login,39,0,0
+1614709046973,30,login-0,302,Found,Csae 1 1-8,text,true,,1439,851,8,8,https://192.168.78.11/login/login,30,0,0
+1614709063954,34,login-0,302,Found,Csae 1 1-9,text,true,,1439,849,9,9,https://192.168.78.11/login/login,34,0,0
+1614709080958,30,login-0,302,Found,Csae 1 1-10,text,true,,1439,853,10,10,https://192.168.78.11/login/login,30,0,0
+1614709097949,35,login-0,302,Found,Csae 1 1-11,text,true,,1439,857,11,11,https://192.168.78.11/login/login,35,0,0
+1614709114970,34,login-0,302,Found,Csae 1 1-12,text,true,,1439,851,12,12,https://192.168.78.11/login/login,34,0,0
+1614709131980,29,login-0,302,Found,Csae 1 1-13,text,true,,1439,855,13,13,https://192.168.78.11/login/login,29,0,0
+1614709148969,30,login-0,302,Found,Csae 1 1-14,text,true,,1439,851,14,14,https://192.168.78.11/login/login,30,0,0
+1614709165940,31,login-0,302,Found,Csae 1 1-15,text,true,,1439,855,15,15,https://192.168.78.11/login/login,31,0,0
+1614708930893,2,login-1,200,OK,Csae 1 1-1,text,true,,1516,769,1,1,https://192.168.78.11/dcim/,2,0,0
+1614708945117,2,login-1,200,OK,Csae 1 1-2,text,true,,1516,769,2,2,https://192.168.78.11/dcim/,2,0,0
+1614708962070,1,login-1,200,OK,Csae 1 1-3,text,true,,1516,769,3,3,https://192.168.78.11/dcim/,1,0,0
+1614708979105,2,login-1,200,OK,Csae 1 1-4,text,true,,1516,769,4,4,https://192.168.78.11/dcim/,2,0,0
+1614708996085,1,login-1,200,OK,Csae 1 1-5,text,true,,1516,769,5,5,https://192.168.78.11/dcim/,1,0,0
+1614709013072,1,login-1,200,OK,Csae 1 1-6,text,true,,1516,769,6,6,https://192.168.78.11/dcim/,0,0,0
+1614709030021,0,login-1,200,OK,Csae 1 1-7,text,true,,1516,769,7,7,https://192.168.78.11/dcim/,0,0,0
+1614709047003,1,login-1,200,OK,Csae 1 1-8,text,true,,1516,769,8,8,https://192.168.78.11/dcim/,1,0,0
+1614709063988,1,login-1,200,OK,Csae 1 1-9,text,true,,1516,769,9,9,https://192.168.78.11/dcim/,1,0,0
+1614709080988,1,login-1,200,OK,Csae 1 1-10,text,true,,1516,769,10,10,https://192.168.78.11/dcim/,1,0,0
+1614709097985,0,login-1,200,OK,Csae 1 1-11,text,true,,1516,769,11,11,https://192.168.78.11/dcim/,0,0,0
+1614709115004,1,login-1,200,OK,Csae 1 1-12,text,true,,1516,769,12,12,https://192.168.78.11/dcim/,1,0,0
+1614709132009,0,login-1,200,OK,Csae 1 1-13,text,true,,1516,769,13,13,https://192.168.78.11/dcim/,0,0,0
+1614709148999,1,login-1,200,OK,Csae 1 1-14,text,true,,1516,769,14,14,https://192.168.78.11/dcim/,1,0,0
+1614709165971,1,login-1,200,OK,Csae 1 1-15,text,true,,1516,769,15,15,https://192.168.78.11/dcim/,1,0,0
