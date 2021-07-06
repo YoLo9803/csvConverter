@@ -13,6 +13,7 @@ class ConvertController():
     def calculateCompletionTime(self, path):
         reader = self.__obtainCsvBy(path)
         if (reader == None):
+            print('檔案開啟失敗!')
             return
         startTimeStamp = 0
         tmp = []
@@ -35,18 +36,25 @@ class ConvertController():
     def generateTimeLineForEachReportIn(self, dirPath):
         files = listdir(dirPath)
         for file in files:
+            if ("With Time Line" in file):
+                print("已產生過TimeLine檔")
+                continue
             extension = self.__getFileExtension(file)
             if (extension == 'csv' or extension == 'jtl'):
                 reader = self.__obtainCsvBy(join(dirPath, file))
                 if (reader == None):
+                    print('檔案開啟失敗!')
                     return
-                self.__addTimeLineToAnothorFile(self.__generateNewFileName(dirPath, file), reader)
-        print('檔案產生完成！')
+                try:
+                    self.__addTimeLineToAnothorFile(self.__generateNewFileName(dirPath, file), reader)
+                    print('檔案產生完成！')
+                except:
+                    print('轉換失敗！請檢查檔案格式與內容是否正確！')      
 
     def __generateNewFileName(self, path, file):
         originalFileName = file.split('.')[0]
         newFileName = originalFileName + ' With Time Line.csv'
-        print('newFileName: ' + newFileName)
+        print('新檔案名稱為： ' + newFileName)
         return join(path, newFileName)
 
     def __getFileExtension(self, file):
@@ -76,4 +84,3 @@ class ConvertController():
             startTimeStamp = self.__getStartTimeStampAndWriteToFirstRow(next(reader), csvWriter)
             for row in reader:
                 self.__writeRowAndAddTimeLine(row, startTimeStamp, csvWriter)
-
