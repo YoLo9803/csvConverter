@@ -1,4 +1,3 @@
-from xlrd import open_workbook_xls
 from csv import reader
 
 class CsvReader():
