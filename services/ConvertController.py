@@ -1,18 +1,17 @@
 from ulti.CsvReader import CsvReader
-from services.FormatConverter import FormatConverter
-from datetime import date
 from csv import writer
-from os import listdir
+from os import listdir, read
 from os.path import isfile, isdir, join
 
 class ConvertController():
     def __init__(self):
         self.__csvReader = CsvReader()
-        self.__formatConverter = FormatConverter()
+        self.__ignoredAPIs = self.__parseIgnoreFile()
 
     def calculateCompletionTime(self, path):
-        reader = self.__obtainCsvBy(path)
-        if (reader == None):
+        try:
+            reader = self.__obtainCsvBy(path)
+        except:
             print('檔案開啟失敗!')
             return
         startTimeStamp = 0
@@ -27,11 +26,46 @@ class ConvertController():
                 print('startTimeStamp:', startTimeStamp)
         print(int(tmp[-1][-1]) + int(tmp[-1][1]))
 
+    def calculateMaxAPIResponse(self, path):
+        try:
+            reader = self.__obtainCsvBy(path)
+        except:
+            print('檔案開啟失敗!')
+            return None
+        TimeStampOfFirstLoadQuickLinkAPI = self.__findTimeStampOfFirstLoadQuickLinkAPI(reader)
+        itemListAPIs = self.__trimLoginAPIs(reader, TimeStampOfFirstLoadQuickLinkAPI)
+        itemListAPIs.sort(key= lambda api: int(api[1]), reverse= True)
+        itemListAPIsWithoutEmbedded = list(filter(self.__isNotComponentOrEmbedded, itemListAPIs))
+        return itemListAPIsWithoutEmbedded
+    
+    def __parseIgnoreFile(self):
+        with open('./configuration/ignoredAPIs.txt', 'r') as ignoreFile:
+            return ignoreFile.read().split('\n')
+    
+    def __findTimeStampOfFirstLoadQuickLinkAPI(self, reader):
+        for row in reader:
+            if (self.__isLabelNamed('Start Load quick Link', row)):
+                return row[0]
+        return 0
+    
+    def __trimLoginAPIs(self, report, endTime):
+        itemListAPIs = []
+        for api in report:
+            if (self.__isAPILateThan(endTime, api)):
+                itemListAPIs.append(api)
+        return itemListAPIs
+
+    def __isAPILateThan(self, endTime, api):
+        return api[0] >= endTime
+
     def __isLabelNamed(self, name, row):
         indexOfLabel = 2
         if (row[indexOfLabel] == name):
             return True
         return False
+
+    def __isNotComponentOrEmbedded(self, api):
+        return api[2] not in self.__ignoredAPIs
 
     def generateTimeLineForEachReportIn(self, dirPath):
         files = listdir(dirPath)
@@ -41,11 +75,8 @@ class ConvertController():
                 continue
             extension = self.__getFileExtension(file)
             if (extension == 'csv' or extension == 'jtl'):
-                reader = self.__obtainCsvBy(join(dirPath, file))
-                if (reader == None):
-                    print('檔案開啟失敗!')
-                    return
                 try:
+                    reader = self.__obtainCsvBy(join(dirPath, file))
                     self.__addTimeLineToAnothorFile(self.__generateNewFileName(dirPath, file), reader)
                     print('檔案產生完成！')
                 except:
@@ -66,11 +97,15 @@ class ConvertController():
         return firstRow[0]
 
     def __writeHeader(self, header, writer):
-        header.append('TimeLine')
+        header.append('API Start Time')
+        header.append('API End Time')
         writer.writerow(header)
 
     def __writeRowAndAddTimeLine(self, row, startTimeStamp, writer):
-        row.append(int(row[0]) - int(startTimeStamp))
+        APIStartTime = int(row[0]) - int(startTimeStamp)
+        row.append(APIStartTime)
+        APIEndTime = APIStartTime + int(row[1])
+        row.append(APIEndTime)
         writer.writerow(row)
 
     def __obtainCsvBy(self, path):
