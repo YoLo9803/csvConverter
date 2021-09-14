@@ -1,7 +1,9 @@
+from typing import Dict, List
 from ulti.CsvReader import CsvReader
 from csv import writer
 from os import listdir, read
 from os.path import isfile, isdir, join
+from models.Api import Api
 
 class ConvertController():
     def __init__(self):
@@ -30,7 +32,6 @@ class ConvertController():
         try:
             reader = self.__obtainCsvBy(path)
         except:
-            print('檔案開啟失敗!')
             return None
         TimeStampOfFirstLoadQuickLinkAPI = self.__findTimeStampOfFirstLoadQuickLinkAPI(reader)
         itemListAPIs = self.__trimLoginAPIs(reader, TimeStampOfFirstLoadQuickLinkAPI)
@@ -38,6 +39,46 @@ class ConvertController():
         itemListAPIsWithoutEmbedded = list(filter(self.__isNotComponentOrEmbedded, itemListAPIs))
         return itemListAPIsWithoutEmbedded
     
+    def getUniqueApisAndItsResponseCode(self, path):
+        try:
+            reader = self.__obtainCsvBy(path)
+        except:
+            return None
+        uniqueApis = {}
+        next(reader)
+        for row in reader:
+            apiName = self.__getNameOfApi(row)
+            if (apiName in uniqueApis):
+                if (not self.__isNewResponseCode(row, uniqueApis[apiName])):
+                    self.__pushNewStateCodeIntoApi(self.__getStatusCodeOfApi(row), uniqueApis[apiName])
+            else:
+                self.__pushNewApi(row, uniqueApis)
+        return uniqueApis
+
+    def __getNameOfApi(self, apiRow):
+        return apiRow[2]
+
+    def __getStatusCodeOfApi(self, apiRow):
+        statusCode = apiRow[3]
+        if (statusCode == ''):
+            return "No Response Code"
+        return apiRow[3]
+
+    def __isNewResponseCode(self, apiRow, theApi: Api):
+        return self.__getStatusCodeOfApi(apiRow) in theApi.statusCodes
+    
+    def __pushNewStateCodeIntoApi(self, statusCode, api):
+        api.addStatusCode(statusCode)
+
+    def __pushNewApi(self, apiRow, uniqueApis):
+        apiName = self.__getNameOfApi(apiRow)
+        statusCode = self.__getStatusCodeOfApi(apiRow)
+        uniqueApis[apiName] = Api(apiName, statusCode)
+        
+
+    
+
+
     def __parseIgnoreFile(self):
         with open('./configuration/ignoredAPIs.txt', 'r') as ignoreFile:
             return ignoreFile.read().split('\n')
