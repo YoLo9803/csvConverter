@@ -44,16 +44,25 @@ class ConvertController():
             reader = self.__obtainCsvBy(path)
         except:
             return None
+        self.__popTitle(reader)
+        uniqueApis = self.__getUniqueApis(reader)
+        return uniqueApis
+
+    def __getUniqueApis(self, reader):
         uniqueApis = {}
-        next(reader)
         for row in reader:
             apiName = self.__getNameOfApi(row)
             if (apiName in uniqueApis):
                 if (not self.__isNewResponseCode(row, uniqueApis[apiName])):
-                    self.__pushNewStateCodeIntoApi(self.__getStatusCodeOfApi(row), uniqueApis[apiName])
+                    self.__pushNewStatusCodeIntoApi(self.__getStatusCodeOfApi(row), uniqueApis[apiName])
+                else:
+                    self.__increaseStatusCodeCount(self.__getStatusCodeOfApi(row), uniqueApis[apiName])
             else:
                 self.__pushNewApi(row, uniqueApis)
         return uniqueApis
+
+    def __popTitle(self, reader):
+        next(reader)
 
     def __getNameOfApi(self, apiRow):
         return apiRow[2]
@@ -67,8 +76,11 @@ class ConvertController():
     def __isNewResponseCode(self, apiRow, theApi: Api):
         return self.__getStatusCodeOfApi(apiRow) in theApi.statusCodes
     
-    def __pushNewStateCodeIntoApi(self, statusCode, api):
+    def __pushNewStatusCodeIntoApi(self, statusCode, api):
         api.addStatusCode(statusCode)
+
+    def __increaseStatusCodeCount(self, statusCode, api):
+        api.increaseStatusCodeCount(statusCode)
 
     def __pushNewApi(self, apiRow, uniqueApis):
         apiName = self.__getNameOfApi(apiRow)

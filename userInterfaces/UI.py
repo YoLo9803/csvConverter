@@ -1,4 +1,4 @@
-from typing import List
+from typing import Dict, List
 from models.Api import Api
 from services.ConvertController import ConvertController
 from os import listdir
@@ -75,10 +75,10 @@ class UI():
         for key in uniqueApis:
             count += 1
             theApi = uniqueApis[key]
-            print(count, ". ", theApi.name, theApi.statusCodes, end = '')
+            print(count, ". ", theApi.name, "status codes:", theApi.statusCodes, end = '')
             self.__printFailedMessage(theApi.statusCodes)
 
-    def __printFailedMessage(self, statusCodes: List[str]):
+    def __printFailedMessage(self, statusCodes: Dict[str, int]):
         if ("No Response Code" in statusCodes or "500" in statusCodes or "502" in statusCodes or "503" in statusCodes):
             print(' (failed)')
         else: print()
